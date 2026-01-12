@@ -90,7 +90,15 @@ export function RankingPage() {
 
     load().catch((e) => {
       if (cancelled) return
-      setError(String(e?.message ?? e))
+      // Static/Pages mode: if data file is missing, show a friendly guide.
+      const msg = String(e?.message ?? e)
+      if (import.meta.env.VITE_DATA_MODE === 'static' && msg.includes('rankings_') && msg.includes('404')) {
+        setError(
+          '랭킹 데이터(JSON)가 아직 생성되지 않았습니다. 관리자 메뉴에서 “GitHub Actions에서 데이터 생성 실행”을 눌러 워크플로를 한 번 실행한 뒤 새로고침 해주세요.',
+        )
+      } else {
+        setError(msg)
+      }
       setItems([])
       setAsofDay(null)
       setPrevDay(null)
