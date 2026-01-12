@@ -54,7 +54,8 @@ export function RankingPage() {
     setError(null)
     const load = async () => {
       if (import.meta.env.VITE_DATA_MODE === 'static') {
-        const res = await fetch(`/data/rankings_${market}.json`, { cache: 'no-store' })
+        const url = `${import.meta.env.BASE_URL}data/rankings_${market}.json`
+        const res = await fetch(url, { cache: 'no-store' })
         if (!res.ok) throw new Error(`GET /data/rankings_${market}.json failed: ${res.status}`)
         const r = (await res.json()) as {
           market: Market

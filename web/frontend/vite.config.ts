@@ -4,6 +4,9 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  // For GitHub Pages project sites, set VITE_BASE="/<repo>/" in CI.
+  // Default "/" keeps local dev working.
+  base: process.env.VITE_BASE ?? '/',
   server: {
     proxy: {
       '/api': {

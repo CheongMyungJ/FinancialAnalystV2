@@ -38,6 +38,7 @@ jobs:
           # Build the frontend in "static data" mode for Pages
           VITE_DATA_MODE: static
           VITE_GITHUB_REPO: CheongMyungJ/FinancialAnalystV2
+          VITE_BASE: /FinancialAnalystV2/
           # Use hash router on Pages, so base can stay "/"
           VITE_ROUTER_MODE: hash
         run: npm run build
