@@ -16,16 +16,32 @@ export function StockDetailPage() {
     if (!market || !symbol) return
     let cancelled = false
     setError(null)
-    apiGet(`/api/public/stocks/${market}/${symbol}`)
-      .then((r) => {
+    const load = async () => {
+      if (import.meta.env.VITE_DATA_MODE === 'static') {
+        const url = `${import.meta.env.BASE_URL}data/stocks/${market}_${symbol}.json`
+        const res = await fetch(url, { cache: 'no-store' })
+        if (!res.ok) throw new Error(`GET ${url} failed: ${res.status}`)
+        const r = await res.json()
         if (cancelled) return
         setDetail(r)
-      })
-      .catch((e) => {
-        if (cancelled) return
-        setError(String(e?.message ?? e))
-        setDetail(null)
-      })
+        const bars = r?.prices?.bars ?? []
+        setPrices(bars.map((b: any) => ({ date: String(b.date), close: Number(b.close) })))
+        setNews(r?.news?.items ?? [])
+        return
+      }
+
+      const r = await apiGet(`/api/public/stocks/${market}/${symbol}`)
+      if (cancelled) return
+      setDetail(r)
+    }
+
+    load().catch((e) => {
+      if (cancelled) return
+      setError(String(e?.message ?? e))
+      setDetail(null)
+      setPrices(null)
+      setNews([])
+    })
     return () => {
       cancelled = true
     }
@@ -33,6 +49,7 @@ export function StockDetailPage() {
 
   useEffect(() => {
     if (!market || !symbol) return
+    if (import.meta.env.VITE_DATA_MODE === 'static') return
     let cancelled = false
     // Pull a longer window for long-term KPIs (1Y/3Y, MDD, vol). UI can still show the most recent window.
     apiGet<{ bars: Array<{ date: string; close: number }> }>(`/api/public/stocks/${market}/${symbol}/prices?limit=900`)
@@ -51,6 +68,7 @@ export function StockDetailPage() {
 
   useEffect(() => {
     if (!market || !symbol) return
+    if (import.meta.env.VITE_DATA_MODE === 'static') return
     let cancelled = false
     apiGet<{ items: Array<any> }>(`/api/public/stocks/${market}/${symbol}/news?limit=20`)
       .then((r) => {

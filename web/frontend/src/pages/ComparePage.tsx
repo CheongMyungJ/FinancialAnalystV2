@@ -97,11 +97,20 @@ export function ComparePage() {
         const outD: Record<string, StockDetail | null> = {}
         const outP: Record<string, Array<{ date: string; close: number }> | null> = {}
         for (const sym of symbols) {
-          // detail
-          outD[sym] = await apiGet<StockDetail>(`/api/public/stocks/${mkt}/${sym}`)
-          // prices (long window for KPIs)
-          const pb = await apiGet<PriceBars>(`/api/public/stocks/${mkt}/${sym}/prices?limit=900`)
-          outP[sym] = pb.bars.map((b) => ({ date: b.date, close: Number(b.close) }))
+          if (import.meta.env.VITE_DATA_MODE === 'static') {
+            const url = `${import.meta.env.BASE_URL}data/stocks/${mkt}_${sym}.json`
+            const res = await fetch(url, { cache: 'no-store' })
+            if (!res.ok) throw new Error(`GET ${url} failed: ${res.status}`)
+            const r = await res.json()
+            outD[sym] = r as StockDetail
+            outP[sym] = (r?.prices?.bars ?? []).map((b: any) => ({ date: String(b.date), close: Number(b.close) }))
+          } else {
+            // detail
+            outD[sym] = await apiGet<StockDetail>(`/api/public/stocks/${mkt}/${sym}`)
+            // prices (long window for KPIs)
+            const pb = await apiGet<PriceBars>(`/api/public/stocks/${mkt}/${sym}/prices?limit=900`)
+            outP[sym] = pb.bars.map((b) => ({ date: b.date, close: Number(b.close) }))
+          }
         }
         if (cancelled) return
         setDetails(outD)
