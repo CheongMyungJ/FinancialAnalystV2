@@ -77,6 +77,25 @@ GitHub Pages 프론트가 `web/frontend/public/data/*.json`을 읽어 표시하�
   - 실행 결과는 `web/frontend/public/data/rankings_KR.json`, `rankings_US.json`로 커밋됩니다.
   - 관리자 화면(정적 모드)에서 GitHub Actions 실행 페이지로 이동하는 버튼을 제공합니다.
 
+### 자동 갱신(스케줄)
+`generate-data.yml`에 `schedule(cron)`이 포함되어 있어, 기본값으로 **매일 00:30 UTC**에 자동으로 데이터가 갱신됩니다.
+(원하는 시간/타임존이 있으면 cron을 조정하세요.)
+
+### 커스텀 도메인 + HTTPS (GitHub Pages)
+1) DNS 설정
+- `yourdomain.com` 또는 `stock.yourdomain.com`을 사용할지 결정
+- GitHub Pages 안내에 따라 DNS 레코드 설정
+  - 서브도메인: 보통 `CNAME`을 `<username>.github.io`로 지정
+  - 루트 도메인: 보통 `A` 레코드(또는 `ALIAS/ANAME`) 사용
+
+2) GitHub 설정
+- 레포 → Settings → Pages
+- Custom domain에 도메인 입력 후 Save
+- “Enforce HTTPS” 체크
+
+3) SPA 라우팅
+- 이 프로젝트는 Pages 환경에서 라우팅 문제를 피하기 위해 기본적으로 **HashRouter**를 사용합니다.
+
 
 ## 관리자
 - URL: `/admin/login`
