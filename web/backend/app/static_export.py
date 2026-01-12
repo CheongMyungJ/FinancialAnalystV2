@@ -4,6 +4,7 @@ import asyncio
 import json
 from datetime import date
 from pathlib import Path
+import traceback
 
 from sqlmodel import Session, select
 
@@ -16,12 +17,12 @@ from app.providers.universe_fdr import Market
 
 def _export_rankings(session: Session, market: Market, out_dir: Path) -> None:
     latest = session.exec(select(Ranking).where(Ranking.market == market).order_by(Ranking.day.desc()).limit(1)).first()
-    day = latest.day if latest else date.today()
+    day = latest.day if latest else None
 
     rows = session.exec(
         select(Ranking, Stock)
         .where(Ranking.market == market)
-        .where(Ranking.day == day)
+        .where(Ranking.day == day)  # day can be None; then rows will be empty
         .where(Ranking.stock_id == Stock.id)
         .order_by(Ranking.rank.asc())
     ).all()
@@ -68,7 +69,7 @@ def _export_rankings(session: Session, market: Market, out_dir: Path) -> None:
 
     payload = {
         "market": market,
-        "day": day.isoformat(),
+        "day": (day.isoformat() if day else None),
         "prev_day": None,
         "computed_at": (last_success.finished_at.isoformat() if last_success and last_success.finished_at else None),
         "factors": explain_keys,
@@ -97,8 +98,13 @@ async def _run() -> None:
         seed_default_weight_presets(session)
 
         today = date.today()
-        await recompute_market(session=session, market="KR", day=today)
-        await recompute_market(session=session, market="US", day=today)
+        for m in ("KR", "US"):
+            try:
+                await recompute_market(session=session, market=m, day=today)
+            except Exception:
+                # Network/provider failures should not break the whole export job.
+                print(f"[static_export] recompute failed: market={m} day={today.isoformat()}")
+                print(traceback.format_exc()[:4000])
 
         # Export into frontend public dir so GitHub Pages can serve it directly.
         out_dir = Path(__file__).resolve().parents[2] / "frontend" / "public" / "data"

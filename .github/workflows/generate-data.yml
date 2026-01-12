@@ -9,19 +9,19 @@ on:
       universe_kr:
         description: "KR universe limit (e.g. 200)"
         required: false
-        default: "200"
+        default: "30"
       universe_us:
         description: "US universe limit (e.g. 100)"
         required: false
-        default: "100"
+        default: "30"
       enable_news:
         description: "Enable news collection (1/0)"
         required: false
-        default: "1"
+        default: "0"
       enable_fundamentals:
         description: "Enable fundamentals collection (1/0)"
         required: false
-        default: "1"
+        default: "0"
 
 permissions:
   contents: write
@@ -51,10 +51,11 @@ jobs:
         env:
           # Use an ephemeral SQLite DB inside the runner workspace (do NOT commit DB files).
           DATABASE_URL: sqlite:///./data/ci.db
-          ENABLE_NEWS: ${{ github.event.inputs.enable_news }}
-          ENABLE_FUNDAMENTALS: ${{ github.event.inputs.enable_fundamentals }}
-          UNIVERSE_LIMIT_KR: ${{ github.event.inputs.universe_kr }}
-          UNIVERSE_LIMIT_US: ${{ github.event.inputs.universe_us }}
+          # For scheduled runs, github.event.inputs is empty -> fall back to safe defaults.
+          ENABLE_NEWS: ${{ github.event.inputs.enable_news || '0' }}
+          ENABLE_FUNDAMENTALS: ${{ github.event.inputs.enable_fundamentals || '0' }}
+          UNIVERSE_LIMIT_KR: ${{ github.event.inputs.universe_kr || '30' }}
+          UNIVERSE_LIMIT_US: ${{ github.event.inputs.universe_us || '30' }}
           # Optional provider keys (set as GitHub Secrets if you have them)
           DART_API_KEY: ${{ secrets.DART_API_KEY }}
           ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
