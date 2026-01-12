@@ -1,0 +1,30 @@
+build/
+out/
+.vs/
+.vscode/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+__pycache__/
+*.pyc
+.venv/
+.python-version
+
+tools/test_agent/state/
+tools/test_agent/.pytest_cache/
+
+# secrets / env
+.env
+web/.env
+
+# runtime data
+web/data/
+web/backend/data/
+*.db
+
+# node
+**/node_modules/
+web/frontend/dist/
+

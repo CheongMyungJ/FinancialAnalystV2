@@ -1,0 +1,13 @@
+{
+  "target": ".",
+  "goal": "edge_cases",
+  "constraints": {
+    "time_budget_sec": 300,
+    "max_tests_to_generate": 3,
+    "allow_source_edits": false
+  },
+  "metadata": {
+    "caller": "local"
+  }
+}
+

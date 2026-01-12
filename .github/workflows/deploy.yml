@@ -1,0 +1,55 @@
+name: Deploy (prod)
+
+on:
+  push:
+    branches: ["main"]
+
+concurrency:
+  group: deploy-prod
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: SSH deploy
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.SSH_PORT }}
+          script_stop: true
+          script: |
+            set -euo pipefail
+
+            DEPLOY_PATH="${{ secrets.DEPLOY_PATH }}"
+            if [ -z "$DEPLOY_PATH" ]; then
+              echo "DEPLOY_PATH is empty"
+              exit 1
+            fi
+
+            mkdir -p "$DEPLOY_PATH"
+            cd "$DEPLOY_PATH"
+
+            # First-time clone (public repo or server has git credentials)
+            if [ ! -d ".git" ]; then
+              git clone "${{ secrets.REPO_URL }}" .
+            fi
+
+            git fetch --all --prune
+            git checkout main
+            git reset --hard origin/main
+
+            cd web
+
+            # Write .env on the server from GitHub Secrets (do NOT commit .env)
+            cat > .env <<'EOF'
+            ${{ secrets.ENV_PROD }}
+            EOF
+
+            # Build & restart
+            docker compose -f docker-compose.prod.yml pull || true
+            docker compose -f docker-compose.prod.yml up -d --build
+            docker image prune -f || true
+
