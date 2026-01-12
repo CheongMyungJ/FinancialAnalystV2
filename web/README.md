@@ -67,6 +67,16 @@ docker compose up --build
 ### 운영용 ENV_PROD 예시
 `web/env.example`를 참고해서 GitHub Secret `ENV_PROD`에 그대로(멀티라인) 넣으면 됩니다.
 
+## 서버 없이 배포 (GitHub Pages + GitHub Actions 데이터 생성)
+
+서버(API)를 띄우지 않고도, GitHub Actions가 주기적으로(또는 수동으로) 데이터를 생성해서 레포에 커밋하고,
+GitHub Pages 프론트가 `web/frontend/public/data/*.json`을 읽어 표시하는 구성도 가능합니다.
+
+- **프론트 배포**: `.github/workflows/pages.yml`
+- **데이터 생성(수동 실행)**: `.github/workflows/generate-data.yml` (workflow_dispatch)
+  - 실행 결과는 `web/frontend/public/data/rankings_KR.json`, `rankings_US.json`로 커밋됩니다.
+  - 관리자 화면(정적 모드)에서 GitHub Actions 실행 페이지로 이동하는 버튼을 제공합니다.
+
 
 ## 관리자
 - URL: `/admin/login`

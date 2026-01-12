@@ -31,6 +31,12 @@ export function RankingPage() {
 
   useEffect(() => {
     let cancelled = false
+    if (import.meta.env.VITE_DATA_MODE === 'static') {
+      setApiStatus('static')
+      return () => {
+        cancelled = true
+      }
+    }
     apiGet<{ status: string }>('/api/public/health')
       .then((r) => {
         if (!cancelled) setApiStatus(r.status)
@@ -46,29 +52,49 @@ export function RankingPage() {
   useEffect(() => {
     let cancelled = false
     setError(null)
-    apiGet<{
-      market: Market
-      day: string
-      prev_day?: string | null
-      computed_at: string | null
-      factors: string[]
-      items: Array<any>
-    }>(`/api/public/rankings/${market}?include_delta=1`)
-      .then((r) => {
+    const load = async () => {
+      if (import.meta.env.VITE_DATA_MODE === 'static') {
+        const res = await fetch(`/data/rankings_${market}.json`, { cache: 'no-store' })
+        if (!res.ok) throw new Error(`GET /data/rankings_${market}.json failed: ${res.status}`)
+        const r = (await res.json()) as {
+          market: Market
+          day: string
+          prev_day?: string | null
+          computed_at: string | null
+          factors: string[]
+          items: Array<any>
+        }
         if (cancelled) return
         setItems(r.items)
         setAsofDay(r.day)
         setPrevDay(r.prev_day ?? null)
         setComputedAt(r.computed_at)
-      })
-      .catch((e) => {
-        if (cancelled) return
-        setError(String(e?.message ?? e))
-        setItems([])
-        setAsofDay(null)
-        setPrevDay(null)
-        setComputedAt(null)
-      })
+        return
+      }
+
+      const r = await apiGet<{
+        market: Market
+        day: string
+        prev_day?: string | null
+        computed_at: string | null
+        factors: string[]
+        items: Array<any>
+      }>(`/api/public/rankings/${market}?include_delta=1`)
+      if (cancelled) return
+      setItems(r.items)
+      setAsofDay(r.day)
+      setPrevDay(r.prev_day ?? null)
+      setComputedAt(r.computed_at)
+    }
+
+    load().catch((e) => {
+      if (cancelled) return
+      setError(String(e?.message ?? e))
+      setItems([])
+      setAsofDay(null)
+      setPrevDay(null)
+      setComputedAt(null)
+    })
     return () => {
       cancelled = true
     }

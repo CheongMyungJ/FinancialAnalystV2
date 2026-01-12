@@ -37,6 +37,13 @@ export function FactorsPage() {
   })
 
   async function load() {
+    // Static/Pages mode: backend API is not available. This page becomes a guide.
+    if (import.meta.env.VITE_DATA_MODE === 'static') {
+      setMe('static')
+      setItems([])
+      setPresets([])
+      return
+    }
     try {
       const meRes = await apiGet<{ username: string }>('/api/admin/auth/me')
       setMe(meRes.username)
@@ -102,6 +109,7 @@ export function FactorsPage() {
   }
 
   async function onRecomputeAll() {
+    if (import.meta.env.VITE_DATA_MODE === 'static') return
     setSaving(true)
     setError(null)
     try {
@@ -115,6 +123,7 @@ export function FactorsPage() {
   }
 
   async function onApplyPreset() {
+    if (import.meta.env.VITE_DATA_MODE === 'static') return
     if (!presetKey) return
     const p = presets.find((x) => x.key === presetKey)
     const ok = confirm(`프리셋을 적용할까요?\n\n- ${p?.name ?? presetKey}\n- 적용 후 기존 enabled/weight는 덮어씁니다.`)
@@ -143,17 +152,40 @@ export function FactorsPage() {
             </div>
           </div>
           <div style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
-            <button onClick={onRecomputeAll} disabled={saving} className="btn btnPrimary" type="button">
-              배치 재계산(ALL)
-            </button>
+            {import.meta.env.VITE_DATA_MODE === 'static' ? (
+              <a
+                className="btn btnPrimary"
+                href={`https://github.com/${import.meta.env.VITE_GITHUB_REPO ?? 'CheongMyungJ/FinancialAnalystV2'}/actions/workflows/generate-data.yml`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub Actions에서 데이터 생성 실행
+              </a>
+            ) : (
+              <button onClick={onRecomputeAll} disabled={saving} className="btn btnPrimary" type="button">
+                배치 재계산(ALL)
+              </button>
+            )}
             <Link to="/" className="btn btnGhost">
               ← 랭킹
             </Link>
           </div>
         </div>
         <div className="cardBody" style={{ display: 'grid', gap: 12 }}>
-          {error ? <p className="error">{error}</p> : <p className="muted2">설정 변경 후 배치를 재계산하세요.</p>}
+          {import.meta.env.VITE_DATA_MODE === 'static' ? (
+            <div className="muted2" style={{ display: 'grid', gap: 6 }}>
+              <div>이 사이트는 GitHub Pages(정적) 모드입니다.</div>
+              <div>
+                아래 버튼을 눌러 GitHub Actions에서 <b>Generate data (manual)</b> 워크플로를 실행하면, 랭킹 데이터(JSON)가 갱신됩니다.
+              </div>
+            </div>
+          ) : error ? (
+            <p className="error">{error}</p>
+          ) : (
+            <p className="muted2">설정 변경 후 배치를 재계산하세요.</p>
+          )}
 
+          {import.meta.env.VITE_DATA_MODE === 'static' ? null : (
           <div className="card" style={{ padding: 12, boxShadow: 'none' }}>
             <div style={{ display: 'flex', gap: 10, alignItems: 'center', flexWrap: 'wrap', justifyContent: 'space-between' }}>
               <div>
@@ -181,10 +213,11 @@ export function FactorsPage() {
               </div>
             ) : null}
           </div>
+          )}
         </div>
       </div>
 
-      <div className="card">
+      {import.meta.env.VITE_DATA_MODE === 'static' ? null : <div className="card">
         <div className="cardHeader">
           <div className="h3">새 팩터 추가</div>
           <div className="muted" style={{ fontSize: 12 }}>
@@ -243,9 +276,9 @@ export function FactorsPage() {
             </button>
           </div>
         </div>
-      </div>
+      </div>}
 
-      <div className="card">
+      {import.meta.env.VITE_DATA_MODE === 'static' ? null : <div className="card">
         <div className="cardHeader">
           <div className="h3">팩터 목록</div>
           <div className="muted" style={{ fontSize: 12 }}>
@@ -330,7 +363,7 @@ export function FactorsPage() {
             </tbody>
           </table>
         </div>
-      </div>
+      </div>}
     </div>
   )
 }
