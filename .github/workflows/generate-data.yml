@@ -36,6 +36,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Needed for pull/rebase
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -75,5 +78,16 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add web/frontend/public/data
           git commit -m "Update data snapshots"
-          git push
+          # Remote main may advance while this job runs (e.g., new commits pushed).
+          # Rebase our snapshot commit on top of latest main, then retry push.
+          for i in 1 2 3; do
+            git pull --rebase origin main || true
+            if git push; then
+              exit 0
+            fi
+            echo "Push failed (attempt $i). Retrying..."
+            sleep 5
+          done
+          echo "Push failed after retries."
+          exit 1
 
