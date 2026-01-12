@@ -66,32 +66,34 @@ export function AdminLoginPage() {
             </div>
           </div>
         ) : (
-        <div className="fieldGrid">
-          <label>
-            <div className="muted" style={{ fontSize: 12, marginBottom: 6 }}>
-              아이디
+          <div style={{ display: 'grid', gap: 12 }}>
+            <div className="fieldGrid">
+              <label>
+                <div className="muted" style={{ fontSize: 12, marginBottom: 6 }}>
+                  아이디
+                </div>
+                <input className="input" value={username} onChange={(e) => setUsername(e.target.value)} />
+              </label>
+              <label>
+                <div className="muted" style={{ fontSize: 12, marginBottom: 6 }}>
+                  비밀번호
+                </div>
+                <input
+                  className="input"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  type="password"
+                />
+              </label>
             </div>
-            <input className="input" value={username} onChange={(e) => setUsername(e.target.value)} />
-          </label>
-          <label>
-            <div className="muted" style={{ fontSize: 12, marginBottom: 6 }}>
-              비밀번호
-            </div>
-            <input
-              className="input"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              type="password"
-            />
-          </label>
-        </div>
 
-        <div style={{ display: 'flex', gap: 10, marginTop: 12, alignItems: 'center' }}>
-          <button onClick={onLogin} disabled={loading} className="btn btnPrimary" type="button">
-            {loading ? '로그인 중…' : '로그인'}
-          </button>
-          {error ? <span className="error">{error}</span> : <span className="muted2">쿠키 기반(JWT) 인증</span>}
-        </div>
+            <div style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
+              <button onClick={onLogin} disabled={loading} className="btn btnPrimary" type="button">
+                {loading ? '로그인 중…' : '로그인'}
+              </button>
+              {error ? <span className="error">{error}</span> : <span className="muted2">쿠키 기반(JWT) 인증</span>}
+            </div>
+          </div>
         )}
       </div>
     </div>
