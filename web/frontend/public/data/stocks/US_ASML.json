@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "ASML",
   "name": "ASML Holding NV ADR",
-  "day": "2026-01-13",
-  "computed_at": "2026-01-13T02:29:38.719718",
+  "day": "2026-01-14",
+  "computed_at": "2026-01-14T02:37:21.067775",
   "ranking": {
     "rank": 5,
     "grade": "A",
-    "total_score": 63.68534493749996
+    "total_score": 63.03879318749997
   },
   "prices": {
     "bars": [
-      {
-        "date": "2024-12-27",
-        "close": 713.5900268554688
-      },
       {
         "date": "2024-12-30",
         "close": 696.1500244140625
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-01-12",
         "close": 1281.22998046875
+      },
+      {
+        "date": "2026-01-13",
+        "close": 1270.1600341796875
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.02858164421532817,
+      "raw_value": 0.028064388826199948,
       "score": 41.37931,
       "enabled": true,
       "note": null
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.0,
-      "score": 89.655172,
+      "raw_value": -0.008640093080722666,
+      "score": 75.862069,
       "enabled": true,
       "note": null
     },
@@ -1140,7 +1140,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 18.862707259510387,
+      "raw_value": 17.402461111638146,
       "score": 100.0,
       "enabled": true,
       "note": null
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.8161110392068787,
+      "raw_value": 0.7716653608521782,
       "score": 86.206897,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.4301973905478016,
+      "raw_value": 0.5598338152670965,
       "score": 79.310345,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 72.25057623954312,
-      "score": 3.448276,
+      "raw_value": 69.92490361273356,
+      "score": 17.241379,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.03318256090798859,
-      "score": 17.241379,
+      "raw_value": 0.03174336387191892,
+      "score": 13.793103,
       "enabled": true,
       "note": null
     }
