@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "META",
   "name": "Meta Platforms Inc",
-  "day": "2026-01-16",
-  "computed_at": "2026-01-16T02:33:07.221270",
+  "day": "2026-01-17",
+  "computed_at": "2026-01-17T02:25:07.397310",
   "ranking": {
-    "rank": 30,
+    "rank": 28,
     "grade": "F",
-    "total_score": 27.90948287499999
+    "total_score": 28.987069124999987
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-01-02",
-        "close": 599.239990234375
-      },
       {
         "date": "2025-01-03",
         "close": 604.6300048828125
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-01-15",
         "close": 620.7999877929688
+      },
+      {
+        "date": "2026-01-16",
+        "close": 620.25
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.02413058868523566,
+      "raw_value": 0.023415142285802597,
       "score": 55.172414,
       "enabled": true,
       "note": null
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.2141772306418117,
-      "score": 6.896552,
+      "raw_value": -0.21487341772151902,
+      "score": 10.344828,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -4.7314383003381,
-      "score": 3.448276,
+      "raw_value": -4.714579938405502,
+      "score": 6.896552,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": -0.1289218244191841,
+      "raw_value": -0.13569667408027963,
       "score": 6.896552,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.22636130254911713,
+      "raw_value": -0.2312404653506569,
       "score": 6.896552,
       "enabled": true,
       "note": null
@@ -1239,7 +1239,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 37.10116494913592,
+      "raw_value": 36.91483626092376,
       "score": 79.310345,
       "enabled": true,
       "note": null
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.012647980045318315,
-      "score": 65.517241,
+      "raw_value": 0.012478227272825443,
+      "score": 68.965517,
       "enabled": true,
       "note": null
     }
