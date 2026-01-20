@@ -2,19 +2,15 @@
   "market": "KR",
   "symbol": "000660",
   "name": "SK하이닉스",
-  "day": "2026-01-19",
-  "computed_at": "2026-01-19T02:38:16.548170",
+  "day": "2026-01-20",
+  "computed_at": "2026-01-20T02:33:15.211531",
   "ranking": {
     "rank": 1,
     "grade": "A",
-    "total_score": 84.59051731249997
+    "total_score": 79.41810349999996
   },
   "prices": {
     "bars": [
-      {
-        "date": "2024-12-20",
-        "close": 168500.0
-      },
       {
         "date": "2024-12-23",
         "close": 169600.0
@@ -1049,7 +1045,11 @@
       },
       {
         "date": "2026-01-19",
-        "close": 768000.0
+        "close": 764000.0
+      },
+      {
+        "date": "2026-01-20",
+        "close": 744000.0
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.03637039307950435,
+      "raw_value": 0.037423695651110395,
       "score": 62.068966,
       "enabled": true,
       "note": null
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.0,
-      "score": 96.551724,
+      "raw_value": -0.02617801047120416,
+      "score": 41.37931,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 4367.436697025194,
-      "score": 75.862069,
+      "raw_value": 1455.0697562633504,
+      "score": 44.827586,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 1.8603351955307263,
+      "raw_value": 1.7657992565055762,
       "score": 100.0,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.9236978852075612,
+      "raw_value": 0.8571131508999064,
       "score": 100.0,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 77.15559635331633,
-      "score": 20.689655,
+      "raw_value": 68.76581759017782,
+      "score": 34.482759,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.02229266793712971,
-      "score": 82.758621,
+      "raw_value": 0.02412539116784747,
+      "score": 79.310345,
       "enabled": true,
       "note": null
     }
