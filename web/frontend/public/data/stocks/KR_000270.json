@@ -2,19 +2,15 @@
   "market": "KR",
   "symbol": "000270",
   "name": "기아",
-  "day": "2026-01-20",
-  "computed_at": "2026-01-20T02:33:15.211531",
+  "day": "2026-01-21",
+  "computed_at": "2026-01-21T02:34:19.398181",
   "ranking": {
-    "rank": 17,
+    "rank": 14,
     "grade": "C",
-    "total_score": 47.521551812499986
+    "total_score": 51.61637912499998
   },
   "prices": {
     "bars": [
-      {
-        "date": "2024-12-23",
-        "close": 100900.0
-      },
       {
         "date": "2024-12-24",
         "close": 100600.0
@@ -1049,7 +1045,11 @@
       },
       {
         "date": "2026-01-20",
-        "close": 167900.0
+        "close": 163900.0
+      },
+      {
+        "date": "2026-01-21",
+        "close": 167200.0
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.043931855419417715,
+      "raw_value": 0.04727613302546248,
       "score": 20.689655,
       "enabled": true,
       "note": null
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.00943952802359882,
-      "score": 65.517241,
+      "raw_value": -0.013569321533923318,
+      "score": 82.758621,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 4423.413877088511,
-      "score": 65.517241,
+      "raw_value": 4178.138588321221,
+      "score": 68.965517,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.582469368520264,
-      "score": 62.068966,
+      "raw_value": 0.5923809523809525,
+      "score": 65.517241,
       "enabled": true,
       "note": null
     },
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.031036823316040962,
+      "raw_value": 0.028829708637474916,
       "score": 65.517241,
       "enabled": true,
       "note": null
@@ -1239,7 +1239,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 80.71112925933821,
+      "raw_value": 76.9126504353795,
       "score": 6.896552,
       "enabled": true,
       "note": null
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.03900949773645279,
-      "score": 17.241379,
+      "raw_value": 0.04012315780239463,
+      "score": 24.137931,
       "enabled": true,
       "note": null
     }
