@@ -2,19 +2,15 @@
   "market": "KR",
   "symbol": "005380",
   "name": "현대차",
-  "day": "2026-01-21",
-  "computed_at": "2026-01-21T02:34:19.398181",
+  "day": "2026-01-22",
+  "computed_at": "2026-01-22T02:37:13.712243",
   "ranking": {
     "rank": 7,
     "grade": "B",
-    "total_score": 62.82327574999998
+    "total_score": 62.17672399999998
   },
   "prices": {
     "bars": [
-      {
-        "date": "2024-12-24",
-        "close": 216500.0
-      },
       {
         "date": "2024-12-26",
         "close": 217500.0
@@ -1049,7 +1045,11 @@
       },
       {
         "date": "2026-01-21",
-        "close": 514000.0
+        "close": 549000.0
+      },
+      {
+        "date": "2026-01-22",
+        "close": 551000.0
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.05154436764890485,
+      "raw_value": 0.05200960183063568,
       "score": 6.896552,
       "enabled": true,
       "note": null
@@ -1086,7 +1086,7 @@
       "weight": 0.05,
       "higher_is_better": true,
       "raw_value": 0.0,
-      "score": 100.0,
+      "score": 96.551724,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 16344.50449722795,
-      "score": 93.103448,
+      "raw_value": 19879.713555203198,
+      "score": 96.551724,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 1.3632183908045978,
+      "raw_value": 1.5450346420323324,
       "score": 93.103448,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.8077860816058242,
+      "raw_value": 0.9132111962207072,
       "score": 93.103448,
       "enabled": true,
       "note": null
@@ -1239,7 +1239,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 88.79711450953458,
+      "raw_value": 90.50202269224815,
       "score": 0.0,
       "enabled": true,
       "note": null
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.05264597669869806,
-      "score": 3.448276,
+      "raw_value": 0.05796070976709824,
+      "score": 0.0,
       "enabled": true,
       "note": null
     }
