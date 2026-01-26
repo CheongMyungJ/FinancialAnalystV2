@@ -2,19 +2,15 @@
   "market": "KR",
   "symbol": "105560",
   "name": "KB금융",
-  "day": "2026-01-25",
-  "computed_at": "2026-01-25T02:44:32.434684",
+  "day": "2026-01-26",
+  "computed_at": "2026-01-26T02:44:07.521489",
   "ranking": {
-    "rank": 13,
-    "grade": "C",
-    "total_score": 50.96982756249999
+    "rank": 12,
+    "grade": "B",
+    "total_score": 54.41810356249998
   },
   "prices": {
     "bars": [
-      {
-        "date": "2024-12-27",
-        "close": 85000.0
-      },
       {
         "date": "2024-12-30",
         "close": 82900.0
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-01-23",
         "close": 135600.0
+      },
+      {
+        "date": "2026-01-26",
+        "close": 136900.0
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.026528345166164865,
+      "raw_value": 0.026588980439651137,
       "score": 93.103448,
       "enabled": true,
       "note": null
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.00877192982456143,
-      "score": 68.965517,
+      "raw_value": 0.0,
+      "score": 96.551724,
       "enabled": true,
       "note": null
     },
@@ -1140,7 +1140,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 948.3082798678722,
+      "raw_value": 960.9035107740551,
       "score": 51.724138,
       "enabled": true,
       "note": null
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.2271493212669684,
-      "score": 31.034483,
+      "raw_value": 0.23000898472596587,
+      "score": 34.482759,
       "enabled": true,
       "note": null
     },
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.5031631516530715,
+      "raw_value": -0.5037657233973478,
       "score": 24.137931,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 65.43194821467523,
-      "score": 41.37931,
+      "raw_value": 67.32727823114809,
+      "score": 34.482759,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.015453087740764058,
-      "score": 89.655172,
+      "raw_value": 0.015488384466160115,
+      "score": 93.103448,
       "enabled": true,
       "note": null
     }
