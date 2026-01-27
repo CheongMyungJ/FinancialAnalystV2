@@ -2,19 +2,15 @@
   "market": "KR",
   "symbol": "035720",
   "name": "카카오",
-  "day": "2026-01-26",
-  "computed_at": "2026-01-26T02:44:07.521489",
+  "day": "2026-01-27",
+  "computed_at": "2026-01-27T02:38:54.955011",
   "ranking": {
-    "rank": 29,
+    "rank": 30,
     "grade": "F",
-    "total_score": 29.418103687499986
+    "total_score": 28.55603462499999
   },
   "prices": {
     "bars": [
-      {
-        "date": "2024-12-30",
-        "close": 38200.0
-      },
       {
         "date": "2025-01-02",
         "close": 37450.0
@@ -1049,7 +1045,11 @@
       },
       {
         "date": "2026-01-26",
-        "close": 61200.0
+        "close": 61800.0
+      },
+      {
+        "date": "2026-01-27",
+        "close": 61900.0
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.03135909343856037,
-      "score": 82.758621,
+      "raw_value": 0.031395013955567784,
+      "score": 79.310345,
       "enabled": true,
       "note": null
     },
@@ -1085,7 +1085,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.13068181818181823,
+      "raw_value": -0.12073863636363635,
       "score": 10.344828,
       "enabled": true,
       "note": null
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 237.24112442412934,
-      "score": 34.482759,
+      "raw_value": 389.06975657034286,
+      "score": 44.827586,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.09285714285714275,
-      "score": 6.896552,
+      "raw_value": 0.09946714031971582,
+      "score": 3.448276,
       "enabled": true,
       "note": null
     },
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.6151697605253343,
-      "score": 0.0,
+      "raw_value": -0.5954410464087883,
+      "score": 6.896552,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 55.982388208042366,
-      "score": 79.310345,
+      "raw_value": 57.71308673847909,
+      "score": 75.862069,
       "enabled": true,
       "note": null
     },
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.029993278101334012,
+      "raw_value": 0.029237608251688744,
       "score": 55.172414,
       "enabled": true,
       "note": null
