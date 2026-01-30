@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "AZN",
   "name": "AstraZeneca PLC ADR",
-  "day": "2026-01-29",
-  "computed_at": "2026-01-29T03:10:04.617576",
+  "day": "2026-01-30",
+  "computed_at": "2026-01-30T03:10:41.113848",
   "ranking": {
     "rank": 10,
     "grade": "B",
-    "total_score": 57.86637956249997
+    "total_score": 58.512931312499965
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-01-15",
-        "close": 65.68000030517578
-      },
       {
         "date": "2025-01-16",
         "close": 66.91000366210938
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-01-28",
         "close": 93.22000122070312
+      },
+      {
+        "date": "2026-01-29",
+        "close": 92.58999633789062
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.020964292978693816,
-      "score": 75.862069,
+      "raw_value": 0.020333279158996045,
+      "score": 79.310345,
       "enabled": true,
       "note": null
     },
@@ -1085,7 +1085,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.032385252603133075,
+      "raw_value": -0.03892464337291157,
       "score": 62.068966,
       "enabled": true,
       "note": null
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.09364317996502836,
-      "score": 31.034483,
+      "raw_value": -0.15772809655580178,
+      "score": 27.586207,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.2665761298008822,
+      "raw_value": 0.2416520949016061,
       "score": 62.068966,
       "enabled": true,
       "note": null
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.10234564701541049,
-      "score": 58.62069,
+      "raw_value": 0.15277872756069755,
+      "score": 62.068966,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 51.429019369528014,
-      "score": 68.965517,
+      "raw_value": 49.5767538901553,
+      "score": 65.517241,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.018878693729706315,
-      "score": 48.275862,
+      "raw_value": 0.018949276385866097,
+      "score": 51.724138,
       "enabled": true,
       "note": null
     }
