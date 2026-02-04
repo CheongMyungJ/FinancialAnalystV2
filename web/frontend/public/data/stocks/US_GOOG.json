@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "GOOG",
   "name": "Alphabet Inc Class C",
-  "day": "2026-02-03",
-  "computed_at": "2026-02-03T03:17:48.743092",
+  "day": "2026-02-04",
+  "computed_at": "2026-02-04T03:13:56.561791",
   "ranking": {
-    "rank": 1,
+    "rank": 2,
     "grade": "A",
-    "total_score": 75.53879312499998
+    "total_score": 75.53879312499997
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-01-21",
-        "close": 199.6300048828125
-      },
       {
         "date": "2025-01-22",
         "close": 200.02999877929688
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-02-02",
         "close": 344.8999938964844
+      },
+      {
+        "date": "2026-02-03",
+        "close": 340.70001220703125
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.023377106679372834,
+      "raw_value": 0.02442744103514449,
       "score": 72.413793,
       "enabled": true,
       "note": null
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.0,
-      "score": 96.551724,
+      "raw_value": -0.01217738986308503,
+      "score": 79.310345,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.53889906944754,
-      "score": 55.172414,
+      "raw_value": 0.42032435400441504,
+      "score": 65.517241,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.7105588729065424,
+      "raw_value": 0.6687892148106516,
       "score": 79.310345,
       "enabled": true,
       "note": null
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.6519606464975074,
-      "score": 75.862069,
+      "raw_value": 0.6439189964325756,
+      "score": 79.310345,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 70.42693854355801,
-      "score": 24.137931,
+      "raw_value": 64.11450169335782,
+      "score": 27.586207,
       "enabled": true,
       "note": null
     },
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.011974082506131963,
+      "raw_value": 0.012532193219215448,
       "score": 93.103448,
       "enabled": true,
       "note": null

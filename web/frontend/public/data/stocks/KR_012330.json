@@ -2,19 +2,15 @@
   "market": "KR",
   "symbol": "012330",
   "name": "현대모비스",
-  "day": "2026-02-03",
-  "computed_at": "2026-02-03T03:17:18.380710",
+  "day": "2026-02-04",
+  "computed_at": "2026-02-04T03:13:26.333876",
   "ranking": {
-    "rank": 17,
-    "grade": "C",
-    "total_score": 46.65948249999998
+    "rank": 20,
+    "grade": "D",
+    "total_score": 43.21120699999998
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-01-09",
-        "close": 253000.0
-      },
       {
         "date": "2025-01-10",
         "close": 257500.0
@@ -1049,7 +1045,11 @@
       },
       {
         "date": "2026-02-03",
-        "close": 441000.0
+        "close": 444500.0
+      },
+      {
+        "date": "2026-02-04",
+        "close": 442500.0
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.05362082761214276,
+      "raw_value": 0.052317006565504406,
       "score": 17.241379,
       "enabled": true,
       "note": null
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.0953846153846154,
-      "score": 34.482759,
+      "raw_value": -0.09230769230769231,
+      "score": 24.137931,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -4958.0887472746035,
-      "score": 13.793103,
+      "raw_value": -5160.785475993143,
+      "score": 10.344828,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.5419580419580419,
-      "score": 65.517241,
+      "raw_value": 0.5,
+      "score": 58.62069,
       "enabled": true,
       "note": null
     },
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.30852497873705054,
-      "score": 55.172414,
+      "raw_value": -0.2934322917333352,
+      "score": 51.724138,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 55.39222147597851,
-      "score": 65.517241,
+      "raw_value": 55.60792001549155,
+      "score": 75.862069,
       "enabled": true,
       "note": null
     },
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.04868859939265237,
+      "raw_value": 0.046605351704763806,
       "score": 17.241379,
       "enabled": true,
       "note": null
