@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "AMZN",
   "name": "Amazon.com Inc",
-  "day": "2026-02-04",
-  "computed_at": "2026-02-04T03:13:56.561791",
+  "day": "2026-02-05",
+  "computed_at": "2026-02-05T03:15:48.631031",
   "ranking": {
-    "rank": 16,
+    "rank": 17,
     "grade": "C",
-    "total_score": 50.754310124999975
+    "total_score": 50.107758312499996
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-01-22",
-        "close": 235.00999450683594
-      },
       {
         "date": "2025-01-23",
         "close": 235.4199981689453
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-02-03",
         "close": 238.6199951171875
+      },
+      {
+        "date": "2026-02-04",
+        "close": 232.99000549316406
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.025389567106458667,
-      "score": 62.068966,
+      "raw_value": 0.026370150846439486,
+      "score": 68.965517,
       "enabled": true,
       "note": null
     },
@@ -1085,7 +1085,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.06055120032603345,
+      "raw_value": -0.08271651380644074,
       "score": 58.62069,
       "enabled": true,
       "note": null
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.10098015663499282,
-      "score": 51.724138,
+      "raw_value": -0.6229792305839543,
+      "score": 48.275862,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.07743709668107046,
-      "score": 41.37931,
+      "raw_value": 0.037540114117478485,
+      "score": 37.931034,
       "enabled": true,
       "note": null
     },
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.01595283546726689,
+      "raw_value": -0.0196984735460195,
       "score": 37.931034,
       "enabled": true,
       "note": null
@@ -1239,7 +1239,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 51.260566451640955,
+      "raw_value": 44.82829849757199,
       "score": 65.517241,
       "enabled": true,
       "note": null
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.017185073635130773,
-      "score": 65.517241,
+      "raw_value": 0.01624562957337289,
+      "score": 68.965517,
       "enabled": true,
       "note": null
     }
