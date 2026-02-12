@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "TXN",
   "name": "Texas Instruments Inc",
-  "day": "2026-02-11",
-  "computed_at": "2026-02-11T03:30:12.803143",
+  "day": "2026-02-12",
+  "computed_at": "2026-02-12T03:26:00.135377",
   "ranking": {
-    "rank": 19,
+    "rank": 20,
     "grade": "D",
-    "total_score": 47.73706874999998
+    "total_score": 47.09051706249998
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-01-29",
-        "close": 180.27000427246094
-      },
       {
         "date": "2025-01-30",
         "close": 185.27000427246094
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-02-10",
         "close": 220.9199981689453
+      },
+      {
+        "date": "2026-02-11",
+        "close": 226.55999755859375
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.02933435095377665,
-      "score": 65.517241,
+      "raw_value": 0.029835341460014975,
+      "score": 62.068966,
       "enabled": true,
       "note": null
     },
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.019048925078948176,
-      "score": 96.551724,
+      "raw_value": 0.0,
+      "score": 100.0,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.6084262528053443,
-      "score": 72.413793,
+      "raw_value": 0.5607627111108098,
+      "score": 68.965517,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.12748798313917065,
+      "raw_value": 0.12845541035668728,
       "score": 41.37931,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.09067343445263276,
+      "raw_value": 0.11565799008770306,
       "score": 48.275862,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 68.97239665273506,
-      "score": 6.896552,
+      "raw_value": 72.59111498620635,
+      "score": 10.344828,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.02701626217992462,
-      "score": 44.827586,
+      "raw_value": 0.02715305930774258,
+      "score": 41.37931,
       "enabled": true,
       "note": null
     }
