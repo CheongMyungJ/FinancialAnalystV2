@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "ADI",
   "name": "Analog Devices Inc",
-  "day": "2026-02-12",
-  "computed_at": "2026-02-12T03:26:00.135377",
+  "day": "2026-02-13",
+  "computed_at": "2026-02-13T03:26:53.659638",
   "ranking": {
-    "rank": 3,
+    "rank": 4,
     "grade": "A",
-    "total_score": 67.13362056249998
+    "total_score": 66.27155149999997
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-01-30",
-        "close": 212.39999389648438
-      },
       {
         "date": "2025-01-31",
         "close": 211.88999938964844
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-02-11",
         "close": 337.0
+      },
+      {
+        "date": "2026-02-12",
+        "close": 331.3599853515625
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.027343162044536424,
-      "score": 68.965517,
+      "raw_value": 0.028644693673780433,
+      "score": 65.517241,
       "enabled": true,
       "note": null
     },
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.0,
-      "score": 93.103448,
+      "raw_value": -0.01673594851168403,
+      "score": 89.655172,
       "enabled": true,
       "note": null
     },
@@ -1140,7 +1140,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.9431899628765166,
+      "raw_value": 0.8626909044024735,
       "score": 79.310345,
       "enabled": true,
       "note": null
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.3762404815613356,
-      "score": 72.413793,
+      "raw_value": 0.34181004027714823,
+      "score": 68.965517,
       "enabled": true,
       "note": null
     },
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.3617042526162788,
+      "raw_value": 0.367036775582291,
       "score": 72.413793,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 74.0667781359218,
-      "score": 6.896552,
+      "raw_value": 67.73046499120403,
+      "score": 13.793103,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.018589358940787615,
-      "score": 65.517241,
+      "raw_value": 0.019311316507154633,
+      "score": 68.965517,
       "enabled": true,
       "note": null
     }
