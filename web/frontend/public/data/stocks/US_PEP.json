@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "PEP",
   "name": "PepsiCo Inc",
-  "day": "2026-02-20",
-  "computed_at": "2026-02-20T03:15:57.688498",
+  "day": "2026-02-21",
+  "computed_at": "2026-02-21T03:06:59.163283",
   "ranking": {
-    "rank": 11,
-    "grade": "B",
-    "total_score": 56.57327581249997
+    "rank": 14,
+    "grade": "C",
+    "total_score": 55.28017231249998
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-02-06",
-        "close": 145.35000610351562
-      },
       {
         "date": "2025-02-07",
         "close": 144.5800018310547
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-02-19",
         "close": 164.58999633789062
+      },
+      {
+        "date": "2026-02-20",
+        "close": 164.94000244140625
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.02179214415715429,
+      "raw_value": 0.021049349929088332,
       "score": 93.103448,
       "enabled": true,
       "note": null
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.03460618784196123,
-      "score": 79.310345,
+      "raw_value": -0.03255324577944452,
+      "score": 68.965517,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.16186866624532747,
-      "score": 55.172414,
+      "raw_value": -0.32239768061649965,
+      "score": 51.724138,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.11480626536381999,
+      "raw_value": 0.12219354494444379,
       "score": 44.827586,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.02556278075290286,
+      "raw_value": 0.026298444543447985,
       "score": 41.37931,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 62.423132450327124,
-      "score": 24.137931,
+      "raw_value": 62.915562600784625,
+      "score": 17.241379,
       "enabled": true,
       "note": null
     },
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.018093848580978466,
+      "raw_value": 0.017382112796674398,
       "score": 82.758621,
       "enabled": true,
       "note": null
