@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "AMGN",
   "name": "Amgen Inc",
-  "day": "2026-02-23",
-  "computed_at": "2026-02-23T03:24:18.299744",
+  "day": "2026-02-24",
+  "computed_at": "2026-02-24T03:19:15.950103",
   "ranking": {
-    "rank": 9,
+    "rank": 10,
     "grade": "B",
-    "total_score": 61.53017224999997
+    "total_score": 60.66810331249997
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-02-07",
-        "close": 293.5400085449219
-      },
       {
         "date": "2025-02-10",
         "close": 294.7900085449219
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-02-20",
         "close": 374.75
+      },
+      {
+        "date": "2026-02-23",
+        "close": 379.4200134277344
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.02438017822078671,
-      "score": 89.655172,
+      "raw_value": 0.023689845646884058,
+      "score": 86.206897,
       "enabled": true,
       "note": null
     },
@@ -1085,7 +1085,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.024901142646329477,
+      "raw_value": -0.012749775715815592,
       "score": 79.310345,
       "enabled": true,
       "note": null
@@ -1140,7 +1140,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.6386494695053955,
+      "raw_value": 0.5797243613869938,
       "score": 75.862069,
       "enabled": true,
       "note": null
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.3121039852255636,
+      "raw_value": 0.3187585579104766,
       "score": 65.517241,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.1862445360735867,
+      "raw_value": 0.2403032815297712,
       "score": 62.068966,
       "enabled": true,
       "note": null
@@ -1239,7 +1239,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 62.66848234605534,
+      "raw_value": 65.09427111592689,
       "score": 24.137931,
       "enabled": true,
       "note": null
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.024810878795712196,
-      "score": 48.275862,
+      "raw_value": 0.024740981752616964,
+      "score": 44.827586,
       "enabled": true,
       "note": null
     }
