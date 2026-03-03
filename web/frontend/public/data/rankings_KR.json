@@ -1,8 +1,8 @@
 {
   "market": "KR",
-  "day": "2026-03-02",
+  "day": "2026-03-03",
   "prev_day": null,
-  "computed_at": "2026-03-02T03:14:23.909213",
+  "computed_at": "2026-03-03T03:17:59.099397",
   "factors": [
     "gdelt_tone",
     "pe_ratio",
@@ -20,7 +20,7 @@
       "rank": 1,
       "delta_rank": null,
       "grade": "A",
-      "total_score": 67.18749999999997,
+      "total_score": 70.31249999999997,
       "symbol": "000660",
       "name": "SK하이닉스",
       "factor_scores": {
@@ -40,7 +40,7 @@
       "rank": 2,
       "delta_rank": null,
       "grade": "B",
-      "total_score": 60.93749999999998,
+      "total_score": 62.49999999999998,
       "symbol": "005930",
       "name": "삼성전자",
       "factor_scores": {
@@ -60,7 +60,27 @@
       "rank": 3,
       "delta_rank": null,
       "grade": "C",
-      "total_score": 45.312499999999986,
+      "total_score": 48.437499999999986,
+      "symbol": "035420",
+      "name": "NAVER",
+      "factor_scores": {
+        "gdelt_tone": null,
+        "roe_ttm": null,
+        "pe_ratio": null,
+        "rs_6m_vs_benchmark": 25.0,
+        "atr_14p": 100.0,
+        "ev_to_ebitda": null,
+        "fcf_yield": null,
+        "debt_to_ebitda": null,
+        "revenue_growth_yoy": null,
+        "earnings_growth_yoy": null
+      }
+    },
+    {
+      "rank": 4,
+      "delta_rank": null,
+      "grade": "D",
+      "total_score": 40.624999999999986,
       "symbol": "005380",
       "name": "현대차",
       "factor_scores": {
@@ -77,30 +97,10 @@
       }
     },
     {
-      "rank": 4,
-      "delta_rank": null,
-      "grade": "D",
-      "total_score": 45.312499999999986,
-      "symbol": "035420",
-      "name": "NAVER",
-      "factor_scores": {
-        "gdelt_tone": null,
-        "roe_ttm": null,
-        "pe_ratio": null,
-        "rs_6m_vs_benchmark": 25.0,
-        "atr_14p": 75.0,
-        "ev_to_ebitda": null,
-        "fcf_yield": null,
-        "debt_to_ebitda": null,
-        "revenue_growth_yoy": null,
-        "earnings_growth_yoy": null
-      }
-    },
-    {
       "rank": 5,
       "delta_rank": null,
       "grade": "F",
-      "total_score": 31.24999999999999,
+      "total_score": 28.12499999999999,
       "symbol": "035720",
       "name": "카카오",
       "factor_scores": {
@@ -108,7 +108,7 @@
         "roe_ttm": null,
         "pe_ratio": null,
         "rs_6m_vs_benchmark": 0.0,
-        "atr_14p": 100.0,
+        "atr_14p": 75.0,
         "ev_to_ebitda": null,
         "fcf_yield": null,
         "debt_to_ebitda": null,
