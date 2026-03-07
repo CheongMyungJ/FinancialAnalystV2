@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "LRCX",
   "name": "Lam Research Corp",
-  "day": "2026-03-06",
-  "computed_at": "2026-03-06T03:11:48.229100",
+  "day": "2026-03-07",
+  "computed_at": "2026-03-07T03:01:43.038098",
   "ranking": {
-    "rank": 6,
-    "grade": "A",
-    "total_score": 64.33189631249996
+    "rank": 10,
+    "grade": "B",
+    "total_score": 60.66810318749997
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-02-21",
-        "close": 86.0199966430664
-      },
       {
         "date": "2025-02-24",
         "close": 83.33999633789062
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-03-05",
         "close": 214.67999267578125
+      },
+      {
+        "date": "2026-03-06",
+        "close": 199.3300018310547
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.05373674951187616,
-      "score": 17.241379,
+      "raw_value": 0.059508352541797295,
+      "score": 10.344828,
       "enabled": true,
       "note": null
     },
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.13949015411144805,
-      "score": 44.827586,
+      "raw_value": -0.20101809666236303,
+      "score": 24.137931,
       "enabled": true,
       "note": null
     },
@@ -1140,7 +1140,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -4.050068120419804,
+      "raw_value": -5.254755183548622,
       "score": 13.793103,
       "enabled": true,
       "note": null
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.8574146848481865,
+      "raw_value": 0.7042578949328779,
       "score": 89.655172,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 1.0792706351085306,
+      "raw_value": 0.8950584952342344,
       "score": 93.103448,
       "enabled": true,
       "note": null
@@ -1239,7 +1239,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 41.982571620203565,
+      "raw_value": 35.35351539378536,
       "score": 89.655172,
       "enabled": true,
       "note": null
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.03198495151801938,
-      "score": 31.034483,
+      "raw_value": 0.03566370837148284,
+      "score": 20.689655,
       "enabled": true,
       "note": null
     }

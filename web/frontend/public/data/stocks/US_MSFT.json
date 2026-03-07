@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "MSFT",
   "name": "Microsoft Corp",
-  "day": "2026-03-06",
-  "computed_at": "2026-03-06T03:11:48.229100",
+  "day": "2026-03-07",
+  "computed_at": "2026-03-07T03:01:43.038098",
   "ranking": {
-    "rank": 25,
+    "rank": 26,
     "grade": "F",
-    "total_score": 30.495689749999997
+    "total_score": 31.788793062499987
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-02-21",
-        "close": 408.2099914550781
-      },
       {
         "date": "2025-02-24",
         "close": 404.0
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-03-05",
         "close": 410.67999267578125
+      },
+      {
+        "date": "2026-03-06",
+        "close": 408.9599914550781
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.026404353055221957,
-      "score": 79.310345,
+      "raw_value": 0.025425886010862413,
+      "score": 82.758621,
       "enabled": true,
       "note": null
     },
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.2423856934955848,
-      "score": 17.241379,
+      "raw_value": -0.24555871763907777,
+      "score": 13.793103,
       "enabled": true,
       "note": null
     },
@@ -1140,7 +1140,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 3.9359891909263744,
+      "raw_value": 4.131881091149591,
       "score": 96.551724,
       "enabled": true,
       "note": null
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": -0.18029583307547203,
+      "raw_value": -0.19796039154669665,
       "score": 0.0,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.25007755714768776,
+      "raw_value": -0.2149423919456419,
       "score": 3.448276,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 48.36016956473721,
-      "score": 55.172414,
+      "raw_value": 47.3125321785426,
+      "score": 44.827586,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.020044177913960817,
-      "score": 62.068966,
+      "raw_value": 0.016407579996143822,
+      "score": 72.413793,
       "enabled": true,
       "note": null
     }
