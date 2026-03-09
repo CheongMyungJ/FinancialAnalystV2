@@ -2,19 +2,15 @@
   "market": "KR",
   "symbol": "005380",
   "name": "현대차",
-  "day": "2026-03-08",
-  "computed_at": "2026-03-08T03:15:07.674605",
+  "day": "2026-03-09",
+  "computed_at": "2026-03-09T03:18:27.610092",
   "ranking": {
     "rank": 4,
     "grade": "D",
-    "total_score": 35.937499999999986
+    "total_score": 32.812499999999986
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-02-11",
-        "close": 199400.0
-      },
       {
         "date": "2025-02-12",
         "close": 198100.0
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-03-06",
         "close": 553000.0
+      },
+      {
+        "date": "2026-03-09",
+        "close": 499500.0
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.0808090973304035,
+      "raw_value": 0.09192321728775694,
       "score": 0.0,
       "enabled": true,
       "note": null
@@ -1085,7 +1085,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.17952522255192882,
+      "raw_value": -0.2589020771513353,
       "score": 50.0,
       "enabled": true,
       "note": null
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -3368.2392344680993,
-      "score": 50.0,
+      "raw_value": -7813.9231180395,
+      "score": 25.0,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 1.4966139954853275,
+      "raw_value": 1.255079006772009,
       "score": 50.0,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.5700641542069216,
+      "raw_value": 0.47703815981301934,
       "score": 50.0,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 55.01079223916352,
-      "score": 25.0,
+      "raw_value": 48.22479058779205,
+      "score": 0.0,
       "enabled": true,
       "note": null
     },
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.0648520458348745,
+      "raw_value": 0.06883855174887214,
       "score": 0.0,
       "enabled": true,
       "note": null
