@@ -2,19 +2,15 @@
   "market": "KR",
   "symbol": "042700",
   "name": "한미반도체",
-  "day": "2026-03-15",
-  "computed_at": "2026-03-15T03:38:35.761876",
+  "day": "2026-03-16",
+  "computed_at": "2026-03-16T03:41:36.435620",
   "ranking": {
-    "rank": 2,
+    "rank": 3,
     "grade": "A",
-    "total_score": 65.62500006249998
+    "total_score": 64.97844824999997
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-02-18",
-        "close": 98400.0
-      },
       {
         "date": "2025-02-19",
         "close": 107000.0
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-03-13",
         "close": 305500.0
+      },
+      {
+        "date": "2026-03-16",
+        "close": 294000.0
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.08406386738480316,
-      "score": 6.896552,
+      "raw_value": 0.08486179076969351,
+      "score": 3.448276,
       "enabled": true,
       "note": null
     },
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.08395802098950522,
-      "score": 86.206897,
+      "raw_value": -0.11844077961019495,
+      "score": 75.862069,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 3199.617535790352,
-      "score": 96.551724,
+      "raw_value": 644.3862962826097,
+      "score": 93.103448,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 2.4994272623138603,
+      "raw_value": 2.2666666666666666,
       "score": 100.0,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 1.757497808445931,
+      "raw_value": 1.6491523852471508,
       "score": 93.103448,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 61.316130614786424,
-      "score": 6.896552,
+      "raw_value": 58.27820847295418,
+      "score": 13.793103,
       "enabled": true,
       "note": null
     },
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.10205516576848588,
+      "raw_value": 0.10267093443679387,
       "score": 3.448276,
       "enabled": true,
       "note": null
