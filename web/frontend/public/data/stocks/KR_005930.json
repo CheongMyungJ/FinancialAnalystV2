@@ -2,23 +2,15 @@
   "market": "KR",
   "symbol": "005930",
   "name": "삼성전자",
-  "day": "2026-03-16",
-  "computed_at": "2026-03-16T03:41:36.435620",
+  "day": "2026-03-18",
+  "computed_at": "2026-03-18T03:23:55.190262",
   "ranking": {
-    "rank": 2,
+    "rank": 1,
     "grade": "A",
-    "total_score": 64.97844843749996
+    "total_score": 68.21120712499997
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-02-19",
-        "close": 58700.0
-      },
-      {
-        "date": "2025-02-20",
-        "close": 58400.0
-      },
       {
         "date": "2025-02-21",
         "close": 58200.0
@@ -1049,7 +1041,15 @@
       },
       {
         "date": "2026-03-16",
-        "close": 186200.0
+        "close": 188700.0
+      },
+      {
+        "date": "2026-03-17",
+        "close": 193900.0
+      },
+      {
+        "date": "2026-03-18",
+        "close": 205250.0
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.05760147093439968,
-      "score": 62.068966,
+      "raw_value": 0.052668750467393916,
+      "score": 65.517241,
       "enabled": true,
       "note": null
     },
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.14587155963302756,
-      "score": 51.724138,
+      "raw_value": -0.0584862385321101,
+      "score": 82.758621,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -2842.6649402766234,
-      "score": 41.37931,
+      "raw_value": -989.8604341747778,
+      "score": 48.275862,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 1.5367847411444142,
-      "score": 82.758621,
+      "raw_value": 1.6830065359477122,
+      "score": 86.206897,
       "enabled": true,
       "note": null
     },
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.7460357721762352,
-      "score": 82.758621,
+      "raw_value": 0.898736291771173,
+      "score": 86.206897,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 53.11367157472431,
-      "score": 27.586207,
+      "raw_value": 61.30397134424609,
+      "score": 10.344828,
       "enabled": true,
       "note": null
     },
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.05771584228262882,
+      "raw_value": 0.057766590493528225,
       "score": 48.275862,
       "enabled": true,
       "note": null
