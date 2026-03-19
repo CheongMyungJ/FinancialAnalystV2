@@ -2,19 +2,15 @@
   "market": "KR",
   "symbol": "015760",
   "name": "한국전력",
-  "day": "2026-03-18",
-  "computed_at": "2026-03-18T03:23:55.190262",
+  "day": "2026-03-19",
+  "computed_at": "2026-03-19T03:24:29.703726",
   "ranking": {
-    "rank": 21,
+    "rank": 20,
     "grade": "D",
-    "total_score": 44.073275937499986
+    "total_score": 42.99568993749999
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-02-21",
-        "close": 21900.0
-      },
       {
         "date": "2025-02-24",
         "close": 22050.0
@@ -1049,7 +1045,11 @@
       },
       {
         "date": "2026-03-18",
-        "close": 49400.0
+        "close": 49950.0
+      },
+      {
+        "date": "2026-03-19",
+        "close": 48800.0
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.0643547001068771,
+      "raw_value": 0.06396236332578577,
       "score": 24.137931,
       "enabled": true,
       "note": null
@@ -1085,7 +1085,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.272459499263623,
+      "raw_value": -0.2812960235640648,
       "score": 0.0,
       "enabled": true,
       "note": null
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -421.8092101339562,
-      "score": 65.517241,
+      "raw_value": -206.49795365112004,
+      "score": 62.068966,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.34239130434782616,
+      "raw_value": 0.326086956521739,
       "score": 34.482759,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.7153939780561256,
+      "raw_value": -0.7219955365395587,
       "score": 27.586207,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 42.66746385170563,
-      "score": 100.0,
+      "raw_value": 41.88771770200113,
+      "score": 96.551724,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.05207771365080679,
-      "score": 65.517241,
+      "raw_value": 0.05262562147321681,
+      "score": 62.068966,
       "enabled": true,
       "note": null
     }
