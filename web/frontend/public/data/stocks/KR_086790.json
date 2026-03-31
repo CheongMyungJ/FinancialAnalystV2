@@ -2,19 +2,15 @@
   "market": "KR",
   "symbol": "086790",
   "name": "하나금융지주",
-  "day": "2026-03-30",
-  "computed_at": "2026-03-30T03:46:00.239085",
+  "day": "2026-03-31",
+  "computed_at": "2026-03-31T03:36:45.570686",
   "ranking": {
-    "rank": 18,
+    "rank": 16,
     "grade": "C",
-    "total_score": 50.323275812499986
+    "total_score": 51.831896624999985
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-03-06",
-        "close": 59500.0
-      },
       {
         "date": "2025-03-07",
         "close": 58000.0
@@ -1049,7 +1045,11 @@
       },
       {
         "date": "2026-03-30",
-        "close": 107600.0
+        "close": 107200.0
+      },
+      {
+        "date": "2026-03-31",
+        "close": 107200.0
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.050601170729009326,
+      "raw_value": 0.04991138476392505,
       "score": 72.413793,
       "enabled": true,
       "note": null
@@ -1085,7 +1085,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.18050266565118045,
+      "raw_value": -0.18354912414318358,
       "score": 68.965517,
       "enabled": true,
       "note": null
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -519.9466310625296,
-      "score": 65.517241,
+      "raw_value": -522.1939792727549,
+      "score": 72.413793,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.21034870641169845,
-      "score": 27.586207,
+      "raw_value": 0.23076923076923084,
+      "score": 34.482759,
       "enabled": true,
       "note": null
     },
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.47671256677352103,
+      "raw_value": -0.43149269101388454,
       "score": 24.137931,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 44.14218026864612,
-      "score": 51.724138,
+      "raw_value": 43.61855946564002,
+      "score": 31.034483,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.03820214366181055,
-      "score": 93.103448,
+      "raw_value": 0.03827751979320823,
+      "score": 89.655172,
       "enabled": true,
       "note": null
     }
