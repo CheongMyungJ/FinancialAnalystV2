@@ -2,19 +2,15 @@
   "market": "KR",
   "symbol": "034020",
   "name": "두산에너빌리티",
-  "day": "2026-04-01",
-  "computed_at": "2026-04-01T03:48:55.904391",
+  "day": "2026-04-02",
+  "computed_at": "2026-04-02T03:29:49.123678",
   "ranking": {
-    "rank": 13,
+    "rank": 15,
     "grade": "C",
-    "total_score": 53.55603481249997
+    "total_score": 52.04741399999999
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-03-10",
-        "close": 26250.0
-      },
       {
         "date": "2025-03-11",
         "close": 25550.0
@@ -1049,7 +1045,11 @@
       },
       {
         "date": "2026-04-01",
-        "close": 98800.0
+        "close": 99600.0
+      },
+      {
+        "date": "2026-04-02",
+        "close": 94900.0
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.06234802723692986,
+      "raw_value": 0.06704785626375483,
       "score": 44.827586,
       "enabled": true,
       "note": null
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.0985401459854015,
-      "score": 86.206897,
+      "raw_value": -0.13412408759124084,
+      "score": 79.310345,
       "enabled": true,
       "note": null
     },
@@ -1140,7 +1140,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -1351.4408159751956,
+      "raw_value": -1329.3094812434579,
       "score": 55.172414,
       "enabled": true,
       "note": null
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.5707472178060413,
-      "score": 62.068966,
+      "raw_value": 0.5135566188197767,
+      "score": 58.62069,
       "enabled": true,
       "note": null
     },
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.11406317581237024,
+      "raw_value": -0.13225445308561445,
       "score": 62.068966,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 49.63399325555185,
-      "score": 31.034483,
+      "raw_value": 45.814387361552626,
+      "score": 48.275862,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.04815718756648852,
-      "score": 31.034483,
+      "raw_value": 0.042891934433985625,
+      "score": 27.586207,
       "enabled": true,
       "note": null
     }
