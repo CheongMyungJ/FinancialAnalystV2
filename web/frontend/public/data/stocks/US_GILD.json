@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "GILD",
   "name": "Gilead Sciences Inc",
-  "day": "2026-04-02",
-  "computed_at": "2026-04-02T03:30:20.317549",
+  "day": "2026-04-03",
+  "computed_at": "2026-04-03T03:31:54.813435",
   "ranking": {
-    "rank": 6,
+    "rank": 2,
     "grade": "A",
-    "total_score": 65.19396574999998
+    "total_score": 67.99568949999998
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-03-20",
-        "close": 105.87000274658203
-      },
       {
         "date": "2025-03-21",
         "close": 107.08000183105469
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-04-01",
         "close": 140.3000030517578
+      },
+      {
+        "date": "2026-04-02",
+        "close": 139.7100067138672
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.023871441884697402,
+      "raw_value": 0.02363425887511153,
       "score": 79.310345,
       "enabled": true,
       "note": null
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.0994865192322929,
-      "score": 79.310345,
+      "raw_value": -0.10327340194303736,
+      "score": 75.862069,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.3525040421548682,
-      "score": 55.172414,
+      "raw_value": -0.1432738466080692,
+      "score": 41.37931,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.18646937041655653,
-      "score": 62.068966,
+      "raw_value": 0.19676211470298854,
+      "score": 65.517241,
       "enabled": true,
       "note": null
     },
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.2936548255420882,
+      "raw_value": 0.2979140188870796,
       "score": 72.413793,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 47.60216682042811,
-      "score": 55.172414,
+      "raw_value": 46.387115456238845,
+      "score": 72.413793,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.014068688052574664,
-      "score": 72.413793,
+      "raw_value": 0.013417473616697383,
+      "score": 79.310345,
       "enabled": true,
       "note": null
     }

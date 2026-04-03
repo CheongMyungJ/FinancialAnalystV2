@@ -2,19 +2,15 @@
   "market": "KR",
   "symbol": "068270",
   "name": "셀트리온",
-  "day": "2026-04-02",
-  "computed_at": "2026-04-02T03:29:49.123678",
+  "day": "2026-04-03",
+  "computed_at": "2026-04-03T03:31:23.795033",
   "ranking": {
-    "rank": 20,
+    "rank": 23,
     "grade": "D",
-    "total_score": 47.090517187499984
+    "total_score": 43.85775843749999
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-03-11",
-        "close": 176653.0
-      },
       {
         "date": "2025-03-12",
         "close": 180024.0
@@ -1049,7 +1045,11 @@
       },
       {
         "date": "2026-04-02",
-        "close": 198700.0
+        "close": 196700.0
+      },
+      {
+        "date": "2026-04-03",
+        "close": 196600.0
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.045438746472156046,
-      "score": 96.551724,
+      "raw_value": 0.045769261127584816,
+      "score": 93.103448,
       "enabled": true,
       "note": null
     },
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.20040241448692153,
-      "score": 48.275862,
+      "raw_value": -0.20885311871227363,
+      "score": 37.931034,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 269.06960984767466,
-      "score": 86.206897,
+      "raw_value": 20.690862128993103,
+      "score": 82.758621,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.14590542099192616,
-      "score": 20.689655,
+      "raw_value": 0.12278697886921752,
+      "score": 13.793103,
       "enabled": true,
       "note": null
     },
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.557497634289811,
-      "score": 13.793103,
+      "raw_value": -0.5615175217644617,
+      "score": 17.241379,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 44.11092431541155,
-      "score": 65.517241,
+      "raw_value": 42.95904684689319,
+      "score": 86.206897,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.030928210181257295,
-      "score": 82.758621,
+      "raw_value": 0.03149277304040803,
+      "score": 79.310345,
       "enabled": true,
       "note": null
     }
