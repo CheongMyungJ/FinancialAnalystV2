@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "ISRG",
   "name": "Intuitive Surgical Inc",
-  "day": "2026-04-06",
-  "computed_at": "2026-04-06T03:45:40.515442",
+  "day": "2026-04-07",
+  "computed_at": "2026-04-07T03:36:07.120832",
   "ranking": {
     "rank": 19,
     "grade": "D",
-    "total_score": 49.24568943749998
+    "total_score": 48.59913774999998
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-03-21",
-        "close": 492.489990234375
-      },
       {
         "date": "2025-03-24",
         "close": 508.5799865722656
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-04-02",
         "close": 452.07000732421875
+      },
+      {
+        "date": "2026-04-06",
+        "close": 452.5799865722656
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.02803330953666613,
-      "score": 62.068966,
+      "raw_value": 0.027440366075045106,
+      "score": 58.62069,
       "enabled": true,
       "note": null
     },
@@ -1085,7 +1085,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.23746305820891744,
+      "raw_value": -0.23660284184887992,
       "score": 24.137931,
       "enabled": true,
       "note": null
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -1.2278124253022984,
-      "score": 17.241379,
+      "raw_value": -1.1901355078397042,
+      "score": 13.793103,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.018726332647646116,
+      "raw_value": 0.05351612102320091,
       "score": 41.37931,
       "enabled": true,
       "note": null
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.054707187513305944,
-      "score": 37.931034,
+      "raw_value": 0.024846077789088095,
+      "score": 34.482759,
       "enabled": true,
       "note": null
     },
@@ -1239,7 +1239,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 33.044348239870345,
+      "raw_value": 33.48489890755535,
       "score": 100.0,
       "enabled": true,
       "note": null
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.015205037446639699,
+      "raw_value": 0.01511616444551401,
       "score": 68.965517,
       "enabled": true,
       "note": null
