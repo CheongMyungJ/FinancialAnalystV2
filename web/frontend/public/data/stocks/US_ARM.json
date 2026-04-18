@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "ARM",
   "name": "Arm Holdings PLC ADR",
-  "day": "2026-04-17",
-  "computed_at": "2026-04-17T03:49:53.365582",
+  "day": "2026-04-18",
+  "computed_at": "2026-04-18T03:35:00.167533",
   "ranking": {
     "rank": 28,
     "grade": "F",
-    "total_score": 21.874999999999993
+    "total_score": 22.521551749999986
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-04-03",
-        "close": 97.72000122070312
-      },
       {
         "date": "2025-04-04",
         "close": 87.70999908447266
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-04-16",
         "close": 162.3300018310547
+      },
+      {
+        "date": "2026-04-17",
+        "close": 166.72999572753906
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.05305446059319769,
-      "score": 3.448276,
+      "raw_value": 0.050587689799654674,
+      "score": 6.896552,
       "enabled": true,
       "note": null
     },
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.09119915872489759,
-      "score": 31.034483,
+      "raw_value": -0.066565892479438,
+      "score": 34.482759,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.8432202937622693,
-      "score": 31.034483,
+      "raw_value": 1.0716105985454778,
+      "score": 34.482759,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": -0.02039710787441329,
+      "raw_value": 0.0007802498154931836,
       "score": 24.137931,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.11238120975856003,
+      "raw_value": -0.10748762998849903,
       "score": 24.137931,
       "enabled": true,
       "note": null
@@ -1239,7 +1239,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 65.83900327081739,
+      "raw_value": 68.30304946751143,
       "score": 41.37931,
       "enabled": true,
       "note": null
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.05260277869697893,
+      "raw_value": 0.052693766268437865,
       "score": 0.0,
       "enabled": true,
       "note": null
