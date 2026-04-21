@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "AMD",
   "name": "Advanced Micro Devices Inc",
-  "day": "2026-04-20",
-  "computed_at": "2026-04-20T03:56:37.991442",
+  "day": "2026-04-21",
+  "computed_at": "2026-04-21T03:49:35.243020",
   "ranking": {
-    "rank": 18,
-    "grade": "C",
-    "total_score": 49.24568981249998
+    "rank": 22,
+    "grade": "D",
+    "total_score": 42.133620624999985
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-04-04",
-        "close": 85.76000213623047
-      },
       {
         "date": "2025-04-07",
         "close": 83.63999938964844
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-04-17",
         "close": 278.3900146484375
+      },
+      {
+        "date": "2026-04-20",
+        "close": 274.95001220703125
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.03655996743667638,
-      "score": 34.482759,
+      "raw_value": 0.03837435990760152,
+      "score": 27.586207,
       "enabled": true,
       "note": null
     },
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.0,
-      "score": 100.0,
+      "raw_value": -0.012356773807962962,
+      "score": 86.206897,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 6.59761659294082,
-      "score": 79.310345,
+      "raw_value": 6.090254413808079,
+      "score": 75.862069,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.18468874480083342,
-      "score": 55.172414,
+      "raw_value": 0.0871026972860025,
+      "score": 41.37931,
       "enabled": true,
       "note": null
     },
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.10542591208982022,
-      "score": 55.172414,
+      "raw_value": 0.10866946934354327,
+      "score": 58.62069,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 80.20601887688966,
-      "score": 0.0,
+      "raw_value": 76.93201632836072,
+      "score": 3.448276,
       "enabled": true,
       "note": null
     },
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.03442506896393227,
+      "raw_value": 0.03409039015624307,
       "score": 27.586207,
       "enabled": true,
       "note": null
