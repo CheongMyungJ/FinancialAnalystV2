@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "TSLA",
   "name": "Tesla Inc",
-  "day": "2026-04-23",
-  "computed_at": "2026-04-23T03:51:36.193625",
+  "day": "2026-04-24",
+  "computed_at": "2026-04-24T03:56:03.490113",
   "ranking": {
-    "rank": 27,
+    "rank": 28,
     "grade": "F",
-    "total_score": 27.69396556249999
+    "total_score": 25.32327593749999
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-04-09",
-        "close": 272.20001220703125
-      },
       {
         "date": "2025-04-10",
         "close": 252.39999389648438
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-04-22",
         "close": 387.510009765625
+      },
+      {
+        "date": "2026-04-23",
+        "close": 373.7200012207031
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.038314015377149256,
-      "score": 24.137931,
+      "raw_value": 0.04050835123411546,
+      "score": 20.689655,
       "enabled": true,
       "note": null
     },
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.2089695315114486,
-      "score": 13.793103,
+      "raw_value": -0.23711929963317613,
+      "score": 10.344828,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 5.333435165567492,
-      "score": 75.862069,
+      "raw_value": 3.9005088131486936,
+      "score": 68.965517,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": -0.15859294314035988,
-      "score": 10.344828,
+      "raw_value": -0.19022341159946998,
+      "score": 6.896552,
       "enabled": true,
       "note": null
     },
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.19599571410095618,
-      "score": 17.241379,
+      "raw_value": -0.22449932232841885,
+      "score": 10.344828,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 53.95193973829411,
-      "score": 75.862069,
+      "raw_value": 47.745976110760694,
+      "score": 82.758621,
       "enabled": true,
       "note": null
     },
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.03061894573801468,
+      "raw_value": 0.03163616209255293,
       "score": 37.931034,
       "enabled": true,
       "note": null
