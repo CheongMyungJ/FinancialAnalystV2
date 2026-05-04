@@ -2,19 +2,15 @@
   "market": "KR",
   "symbol": "005490",
   "name": "POSCO홀딩스",
-  "day": "2026-05-03",
-  "computed_at": "2026-05-03T04:26:00.581884",
+  "day": "2026-05-04",
+  "computed_at": "2026-05-04T04:14:45.931137",
   "ranking": {
-    "rank": 14,
+    "rank": 15,
     "grade": "C",
-    "total_score": 53.12499999999997
+    "total_score": 50.96982774999998
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-04-08",
-        "close": 251500.0
-      },
       {
         "date": "2025-04-09",
         "close": 249500.0
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-04-30",
         "close": 462000.0
+      },
+      {
+        "date": "2026-05-04",
+        "close": 505000.0
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.03803515975237704,
-      "score": 79.310345,
+      "raw_value": 0.03935156330636105,
+      "score": 68.965517,
       "enabled": true,
       "note": null
     },
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.014925373134328401,
-      "score": 79.310345,
+      "raw_value": 0.0,
+      "score": 75.862069,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 8883.043539505561,
-      "score": 72.413793,
+      "raw_value": 10749.274448598582,
+      "score": 75.862069,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.47839999999999994,
+      "raw_value": 0.6530278232405893,
       "score": 55.172414,
       "enabled": true,
       "note": null
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.3488211975636091,
-      "score": 41.37931,
+      "raw_value": -0.2892123328695695,
+      "score": 55.172414,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 76.04163346575001,
-      "score": 17.241379,
+      "raw_value": 82.00844992411069,
+      "score": 10.344828,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.034159755985107024,
-      "score": 41.37931,
+      "raw_value": 0.038288055464908585,
+      "score": 31.034483,
       "enabled": true,
       "note": null
     }
