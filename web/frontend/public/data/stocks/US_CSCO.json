@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "CSCO",
   "name": "Cisco Systems Inc",
-  "day": "2026-05-08",
-  "computed_at": "2026-05-08T03:58:20.130427",
+  "day": "2026-05-09",
+  "computed_at": "2026-05-09T04:02:19.577731",
   "ranking": {
-    "rank": 12,
-    "grade": "B",
-    "total_score": 58.72844831249998
+    "rank": 13,
+    "grade": "C",
+    "total_score": 54.84913787499999
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-04-25",
-        "close": 56.709999084472656
-      },
       {
         "date": "2025-04-28",
         "close": 56.84000015258789
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-05-07",
         "close": 92.16000366210938
+      },
+      {
+        "date": "2026-05-08",
+        "close": 96.56999969482422
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.0230102826555999,
-      "score": 86.206897,
+      "raw_value": 0.023975263895194606,
+      "score": 72.413793,
       "enabled": true,
       "note": null
     },
@@ -1085,7 +1085,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.022693524076281002,
+      "raw_value": 0.0,
       "score": 72.413793,
       "enabled": true,
       "note": null
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.22833226600670375,
-      "score": 41.37931,
+      "raw_value": 0.4004490189265457,
+      "score": 48.275862,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.24607902654041092,
-      "score": 51.724138,
+      "raw_value": 0.24799693877681817,
+      "score": 44.827586,
       "enabled": true,
       "note": null
     },
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.1632524102126196,
-      "score": 51.724138,
+      "raw_value": 0.1966074722747546,
+      "score": 58.62069,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 65.00197819071437,
-      "score": 37.931034,
+      "raw_value": 72.50363002829954,
+      "score": 34.482759,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.015742691184212215,
-      "score": 79.310345,
+      "raw_value": 0.017871726185262095,
+      "score": 75.862069,
       "enabled": true,
       "note": null
     }

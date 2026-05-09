@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "KLAC",
   "name": "KLA Corp",
-  "day": "2026-05-08",
-  "computed_at": "2026-05-08T03:58:20.130427",
+  "day": "2026-05-09",
+  "computed_at": "2026-05-09T04:02:19.577731",
   "ranking": {
-    "rank": 15,
+    "rank": 14,
     "grade": "C",
-    "total_score": 53.771551749999965
+    "total_score": 53.771551749999986
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-04-25",
-        "close": 694.6099853515625
-      },
       {
         "date": "2025-04-28",
         "close": 693.719970703125
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-05-07",
         "close": 1763.25
+      },
+      {
+        "date": "2026-05-08",
+        "close": 1869.18994140625
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.04228573927432063,
+      "raw_value": 0.04184967377858653,
       "score": 27.586207,
       "enabled": true,
       "note": null
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.08875968992248062,
-      "score": 27.586207,
+      "raw_value": -0.03401036619832043,
+      "score": 37.931034,
       "enabled": true,
       "note": null
     },
@@ -1140,7 +1140,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -16.875877076698593,
+      "raw_value": -9.882861302753128,
       "score": 0.0,
       "enabled": true,
       "note": null
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.47063733294834575,
+      "raw_value": 0.6089849434842136,
       "score": 72.413793,
       "enabled": true,
       "note": null
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.3219521290587948,
-      "score": 68.965517,
+      "raw_value": 0.38662730806434165,
+      "score": 72.413793,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 53.65328055589836,
-      "score": 75.862069,
+      "raw_value": 61.29357473729979,
+      "score": 62.068966,
       "enabled": true,
       "note": null
     },
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.027752729259086825,
+      "raw_value": 0.030703658540309542,
       "score": 34.482759,
       "enabled": true,
       "note": null
