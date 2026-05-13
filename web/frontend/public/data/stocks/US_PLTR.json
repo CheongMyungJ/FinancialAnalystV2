@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "PLTR",
   "name": "Palantir Technologies Inc",
-  "day": "2026-05-12",
-  "computed_at": "2026-05-12T04:13:06.493750",
+  "day": "2026-05-13",
+  "computed_at": "2026-05-13T04:28:07.832145",
   "ranking": {
     "rank": 30,
     "grade": "F",
-    "total_score": 19.073275999999996
+    "total_score": 17.995689687499993
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-04-29",
-        "close": 116.08000183105469
-      },
       {
         "date": "2025-04-30",
         "close": 118.44000244140625
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-05-11",
         "close": 136.88999938964844
+      },
+      {
+        "date": "2026-05-12",
+        "close": 136.0
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.04716183932591847,
+      "raw_value": 0.04632824571276422,
       "score": 20.689655,
       "enabled": true,
       "note": null
@@ -1085,7 +1085,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.3392701794141414,
+      "raw_value": -0.3435659580660946,
       "score": 3.448276,
       "enabled": true,
       "note": null
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.41136901626371136,
-      "score": 27.586207,
+      "raw_value": -0.4143968620037699,
+      "score": 31.034483,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": -0.21332105217513386,
-      "score": 3.448276,
+      "raw_value": -0.20583941605839418,
+      "score": 0.0,
       "enabled": true,
       "note": null
     },
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.4004789416739437,
+      "raw_value": -0.43235471370104206,
       "score": 0.0,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 44.80034572206066,
-      "score": 86.206897,
+      "raw_value": 43.90904250251659,
+      "score": 89.655172,
       "enabled": true,
       "note": null
     },
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.031492121151243745,
+      "raw_value": 0.031068173055231074,
       "score": 31.034483,
       "enabled": true,
       "note": null
