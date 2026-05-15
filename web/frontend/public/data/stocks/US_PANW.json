@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "PANW",
   "name": "Palo Alto Networks Inc",
-  "day": "2026-05-14",
-  "computed_at": "2026-05-14T04:27:29.238342",
+  "day": "2026-05-15",
+  "computed_at": "2026-05-15T04:33:43.009220",
   "ranking": {
-    "rank": 25,
-    "grade": "F",
-    "total_score": 36.31465512499999
+    "rank": 23,
+    "grade": "D",
+    "total_score": 40.409482874999995
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-05-01",
-        "close": 186.27000427246094
-      },
       {
         "date": "2025-05-02",
         "close": 187.6999969482422
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-05-13",
         "close": 227.7899932861328
+      },
+      {
+        "date": "2026-05-14",
+        "close": 238.2100067138672
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.03735400177023132,
+      "raw_value": 0.03729816148344681,
       "score": 41.37931,
       "enabled": true,
       "note": null
@@ -1086,7 +1086,7 @@
       "weight": 0.05,
       "higher_is_better": true,
       "raw_value": 0.0,
-      "score": 68.965517,
+      "score": 82.758621,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 4.372171347159188,
-      "score": 79.310345,
+      "raw_value": 5.222810183758469,
+      "score": 82.758621,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.13328354868722792,
-      "score": 27.586207,
+      "raw_value": 0.19164589288192357,
+      "score": 31.034483,
       "enabled": true,
       "note": null
     },
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.10623072447558668,
-      "score": 24.137931,
+      "raw_value": -0.024815380216451466,
+      "score": 34.482759,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 82.70602363144499,
-      "score": 0.0,
+      "raw_value": 85.16833739404697,
+      "score": 3.448276,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.02670487214327647,
-      "score": 41.37931,
+      "raw_value": 0.027475885839416257,
+      "score": 44.827586,
       "enabled": true,
       "note": null
     }
