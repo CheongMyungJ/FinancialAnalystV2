@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "NFLX",
   "name": "Netflix Inc",
-  "day": "2026-05-19",
-  "computed_at": "2026-05-19T04:39:13.706178",
+  "day": "2026-05-20",
+  "computed_at": "2026-05-20T04:43:34.433253",
   "ranking": {
-    "rank": 29,
+    "rank": 27,
     "grade": "F",
-    "total_score": 30.49568974999999
+    "total_score": 33.51293112499999
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-05-06",
-        "close": 113.76899719238281
-      },
       {
         "date": "2025-05-07",
         "close": 115.54100036621094
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-05-18",
         "close": 89.6500015258789
+      },
+      {
+        "date": "2026-05-19",
+        "close": 89.33000183105469
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.029543311622344887,
+      "raw_value": 0.02971962538436023,
       "score": 58.62069,
       "enabled": true,
       "note": null
@@ -1085,7 +1085,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.33053545746059587,
+      "raw_value": -0.3329250664473443,
       "score": 3.448276,
       "enabled": true,
       "note": null
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.10297161798130006,
-      "score": 48.275862,
+      "raw_value": 0.07718964803156014,
+      "score": 65.517241,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": -0.1405425786198483,
-      "score": 0.0,
+      "raw_value": -0.16490604083712368,
+      "score": 3.448276,
       "enabled": true,
       "note": null
     },
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.35326521525940124,
+      "raw_value": -0.35217220645043645,
       "score": 3.448276,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 45.733445605216524,
-      "score": 86.206897,
+      "raw_value": 44.92032557185567,
+      "score": 93.103448,
       "enabled": true,
       "note": null
     },
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.015989539964445944,
+      "raw_value": 0.015209556867073235,
       "score": 79.310345,
       "enabled": true,
       "note": null
