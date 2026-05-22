@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "MU",
   "name": "Micron Technology Inc",
-  "day": "2026-05-21",
-  "computed_at": "2026-05-21T04:51:08.177999",
+  "day": "2026-05-22",
+  "computed_at": "2026-05-22T04:42:27.006279",
   "ranking": {
-    "rank": 8,
-    "grade": "B",
-    "total_score": 59.59051706249998
+    "rank": 4,
+    "grade": "A",
+    "total_score": 61.96120674999997
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-05-08",
-        "close": 85.1500015258789
-      },
       {
         "date": "2025-05-09",
         "close": 85.86000061035156
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-05-20",
         "close": 731.989990234375
+      },
+      {
+        "date": "2026-05-21",
+        "close": 762.0999755859375
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.06791694819815346,
+      "raw_value": 0.06367454763561774,
       "score": 10.344828,
       "enabled": true,
       "note": null
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.08914551996958386,
-      "score": 31.034483,
+      "raw_value": -0.05167804716665725,
+      "score": 44.827586,
       "enabled": true,
       "note": null
     },
@@ -1140,7 +1140,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -1.590415356651107,
+      "raw_value": -1.5148979273116652,
       "score": 37.931034,
       "enabled": true,
       "note": null
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 2.2600988474323604,
-      "score": 93.103448,
+      "raw_value": 2.3097367921778194,
+      "score": 96.551724,
       "enabled": true,
       "note": null
     },
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 2.007518887627759,
+      "raw_value": 2.1822098085529777,
       "score": 93.103448,
       "enabled": true,
       "note": null
@@ -1239,7 +1239,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 64.36376813060235,
+      "raw_value": 66.92109486161287,
       "score": 27.586207,
       "enabled": true,
       "note": null
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.05705938841791795,
+      "raw_value": 0.05663306660920941,
       "score": 17.241379,
       "enabled": true,
       "note": null
