@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "SNDK",
   "name": "Sandisk Corp",
-  "day": "2026-05-26",
-  "computed_at": "2026-05-26T04:41:10.959924",
+  "day": "2026-05-27",
+  "computed_at": "2026-05-27T04:54:20.538080",
   "ranking": {
     "rank": 6,
     "grade": "A",
-    "total_score": 58.72844831249998
+    "total_score": 61.31465524999998
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-05-12",
-        "close": 41.27000045776367
-      },
       {
         "date": "2025-05-13",
         "close": 42.0
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-05-22",
         "close": 1478.68994140625
+      },
+      {
+        "date": "2026-05-26",
+        "close": 1589.550048828125
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.07088835817854712,
+      "raw_value": 0.06873542219517192,
       "score": 0.0,
       "enabled": true,
       "note": null
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.053541499445763585,
-      "score": 48.275862,
+      "raw_value": 0.0,
+      "score": 72.413793,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -9.814471499443414,
-      "score": 0.0,
+      "raw_value": -3.9452635857472274,
+      "score": 3.448276,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 5.622581285786706,
+      "raw_value": 6.563163451856549,
       "score": 100.0,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 6.320715226956589,
+      "raw_value": 6.6994191668625245,
       "score": 100.0,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 63.94806157916132,
-      "score": 31.034483,
+      "raw_value": 68.34325397868989,
+      "score": 34.482759,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.06636979859336958,
-      "score": 3.448276,
+      "raw_value": 0.06609665130133038,
+      "score": 6.896552,
       "enabled": true,
       "note": null
     }
