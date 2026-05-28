@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "COST",
   "name": "Costco Wholesale Corp",
-  "day": "2026-05-27",
-  "computed_at": "2026-05-27T04:54:20.538080",
+  "day": "2026-05-28",
+  "computed_at": "2026-05-28T04:48:33.110295",
   "ranking": {
-    "rank": 17,
+    "rank": 18,
     "grade": "C",
-    "total_score": 49.67672431249998
+    "total_score": 46.44396568749998
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-05-13",
-        "close": 999.030029296875
-      },
       {
         "date": "2025-05-14",
         "close": 991.5399780273438
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-05-26",
         "close": 1002.9299926757812
+      },
+      {
+        "date": "2026-05-27",
+        "close": 1003.6900024414062
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.022739918660944075,
+      "raw_value": 0.022131515596036166,
       "score": 89.655172,
       "enabled": true,
       "note": null
@@ -1085,7 +1085,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.08351301090982832,
+      "raw_value": -0.08281850674018199,
       "score": 31.034483,
       "enabled": true,
       "note": null
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -1.7502411329855256,
-      "score": 20.689655,
+      "raw_value": -4.164050907514026,
+      "score": 0.0,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.09975214758465878,
-      "score": 34.482759,
+      "raw_value": 0.08856541603835155,
+      "score": 31.034483,
       "enabled": true,
       "note": null
     },
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.12202211076723168,
-      "score": 24.137931,
+      "raw_value": -0.07270421805707561,
+      "score": 31.034483,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 43.88105659030424,
-      "score": 89.655172,
+      "raw_value": 44.09774003472223,
+      "score": 86.206897,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.01567631970586223,
-      "score": 82.758621,
+      "raw_value": 0.015642413818026488,
+      "score": 79.310345,
       "enabled": true,
       "note": null
     }
