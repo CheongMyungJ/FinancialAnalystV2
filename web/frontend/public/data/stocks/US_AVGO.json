@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "AVGO",
   "name": "Broadcom Inc",
-  "day": "2026-05-28",
-  "computed_at": "2026-05-28T04:48:33.110295",
+  "day": "2026-05-29",
+  "computed_at": "2026-05-29T04:51:07.186954",
   "ranking": {
-    "rank": 23,
+    "rank": 21,
     "grade": "D",
-    "total_score": 42.34913812499999
+    "total_score": 43.64224149999998
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-05-14",
-        "close": 232.1199951171875
-      },
       {
         "date": "2025-05-15",
         "close": 232.63999938964844
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-05-27",
         "close": 421.8599853515625
+      },
+      {
+        "date": "2026-05-28",
+        "close": 426.5799865722656
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.036107671851679686,
-      "score": 44.827586,
+      "raw_value": 0.03590586059517297,
+      "score": 48.275862,
       "enabled": true,
       "note": null
     },
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.04076951009569818,
-      "score": 48.275862,
+      "raw_value": -0.030037112521866027,
+      "score": 55.172414,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -3.227458063267118,
-      "score": 13.793103,
+      "raw_value": -2.6107861562227033,
+      "score": 10.344828,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.10559000250014283,
+      "raw_value": 0.12077980870165939,
       "score": 34.482759,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.08923393023684278,
+      "raw_value": -0.1001862783562204,
       "score": 24.137931,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 56.36690674735675,
-      "score": 68.965517,
+      "raw_value": 58.451604001962366,
+      "score": 72.413793,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.023493256876384358,
-      "score": 62.068966,
+      "raw_value": 0.023430544956116486,
+      "score": 65.517241,
       "enabled": true,
       "note": null
     }
