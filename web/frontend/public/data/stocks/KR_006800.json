@@ -2,19 +2,15 @@
   "market": "KR",
   "symbol": "006800",
   "name": "미래에셋증권",
-  "day": "2026-05-31",
-  "computed_at": "2026-05-31T04:57:37.462876",
+  "day": "2026-06-01",
+  "computed_at": "2026-06-01T05:22:14.615218",
   "ranking": {
-    "rank": 11,
-    "grade": "B",
-    "total_score": 55.28017249999998
+    "rank": 13,
+    "grade": "C",
+    "total_score": 51.18534474999999
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-05-07",
-        "close": 11928.0
-      },
       {
         "date": "2025-05-08",
         "close": 12117.0
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-05-29",
         "close": 61400.0
+      },
+      {
+        "date": "2026-06-01",
+        "close": 61300.0
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.08521635090275512,
+      "raw_value": 0.0848989990730339,
       "score": 3.448276,
       "enabled": true,
       "note": null
@@ -1085,7 +1085,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.26730310262529833,
+      "raw_value": -0.26849642004773266,
       "score": 3.448276,
       "enabled": true,
       "note": null
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -1333.9901563801081,
-      "score": 27.586207,
+      "raw_value": -1296.9665360876838,
+      "score": 31.034483,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 1.8223396920248218,
-      "score": 79.310345,
+      "raw_value": 1.8112818160972255,
+      "score": 68.965517,
       "enabled": true,
       "note": null
     },
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.4269254379381522,
-      "score": 79.310345,
+      "raw_value": 0.2890216082542203,
+      "score": 68.965517,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 39.510605962333386,
-      "score": 93.103448,
+      "raw_value": 39.38746313493407,
+      "score": 96.551724,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.06115725606467576,
-      "score": 24.137931,
+      "raw_value": 0.06113027366770999,
+      "score": 27.586207,
       "enabled": true,
       "note": null
     }
