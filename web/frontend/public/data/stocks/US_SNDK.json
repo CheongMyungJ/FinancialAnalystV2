@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "SNDK",
   "name": "Sandisk Corp",
-  "day": "2026-06-01",
-  "computed_at": "2026-06-01T05:22:48.453781",
+  "day": "2026-06-02",
+  "computed_at": "2026-06-02T05:07:39.814423",
   "ranking": {
     "rank": 1,
     "grade": "A",
-    "total_score": 67.13362074999998
+    "total_score": 67.34913799999998
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-05-16",
-        "close": 40.439998626708984
-      },
       {
         "date": "2025-05-19",
         "close": 38.779998779296875
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-05-29",
         "close": 1694.97998046875
+      },
+      {
+        "date": "2026-06-01",
+        "close": 1761.4300537109375
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.06450743957871594,
+      "raw_value": 0.06238313979415867,
       "score": 6.896552,
       "enabled": true,
       "note": null
@@ -1140,7 +1140,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 6.5687018379973665,
+      "raw_value": 11.792049226692143,
       "score": 89.655172,
       "enabled": true,
       "note": null
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 6.946087852741918,
+      "raw_value": 6.709677613252111,
       "score": 100.0,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 6.680230908725259,
+      "raw_value": 6.68946556043537,
       "score": 100.0,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 72.22438219897917,
-      "score": 24.137931,
+      "raw_value": 74.42953820441005,
+      "score": 17.241379,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.06270033050545554,
-      "score": 6.896552,
+      "raw_value": 0.06129760062728517,
+      "score": 10.344828,
       "enabled": true,
       "note": null
     }
