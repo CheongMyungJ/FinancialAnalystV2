@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "PANW",
   "name": "Palo Alto Networks Inc",
-  "day": "2026-06-03",
-  "computed_at": "2026-06-03T05:23:19.005059",
+  "day": "2026-06-04",
+  "computed_at": "2026-06-04T05:17:53.973012",
   "ranking": {
-    "rank": 17,
-    "grade": "C",
-    "total_score": 49.89224149999998
+    "rank": 21,
+    "grade": "D",
+    "total_score": 44.50431037499999
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-05-20",
-        "close": 194.47999572753906
-      },
       {
         "date": "2025-05-21",
         "close": 181.25999450683594
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-06-02",
         "close": 297.17999267578125
+      },
+      {
+        "date": "2026-06-03",
+        "close": 280.42999267578125
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.04184031506243319,
-      "score": 34.482759,
+      "raw_value": 0.0466294147681016,
+      "score": 31.034483,
       "enabled": true,
       "note": null
     },
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.010982488651123723,
-      "score": 62.068966,
+      "raw_value": -0.06672662931797868,
+      "score": 41.37931,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 4.525239059868934,
-      "score": 79.310345,
+      "raw_value": 3.201065893473288,
+      "score": 68.965517,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.5212694312295343,
-      "score": 55.172414,
+      "raw_value": 0.43810252654246784,
+      "score": 51.724138,
       "enabled": true,
       "note": null
     },
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.37401578959369575,
-      "score": 55.172414,
+      "raw_value": 0.28040092326649435,
+      "score": 51.724138,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 81.15926922684584,
-      "score": 6.896552,
+      "raw_value": 69.58026322574376,
+      "score": 34.482759,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.034054558395973676,
-      "score": 41.37931,
+      "raw_value": 0.038170449689418406,
+      "score": 24.137931,
       "enabled": true,
       "note": null
     }
