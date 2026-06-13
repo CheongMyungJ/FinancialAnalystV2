@@ -1,0 +1,227 @@
+{
+  "market": "US",
+  "symbol": "SPCX",
+  "name": "Space Exploration Technologies Corp",
+  "day": "2026-06-13",
+  "computed_at": "2026-06-13T04:59:07.786311",
+  "ranking": {
+    "rank": 18,
+    "grade": "C",
+    "total_score": 50.0
+  },
+  "prices": {
+    "bars": [
+      {
+        "date": "2026-06-11",
+        "close": 135.0
+      },
+      {
+        "date": "2026-06-12",
+        "close": 160.9499969482422
+      }
+    ]
+  },
+  "news": {
+    "items": []
+  },
+  "breakdown": [
+    {
+      "key": "atr_14p",
+      "name": "ATR(14) %",
+      "factor_type": "technical",
+      "weight": 0.05,
+      "higher_is_better": false,
+      "raw_value": null,
+      "score": null,
+      "enabled": true,
+      "note": null
+    },
+    {
+      "key": "debt_to_ebitda",
+      "name": "부채/EBITDA",
+      "factor_type": "fundamental",
+      "weight": 0.05,
+      "higher_is_better": false,
+      "raw_value": null,
+      "score": null,
+      "enabled": true,
+      "note": null
+    },
+    {
+      "key": "dist_to_52w_high",
+      "name": "52주 고점 거리",
+      "factor_type": "technical",
+      "weight": 0.05,
+      "higher_is_better": true,
+      "raw_value": null,
+      "score": null,
+      "enabled": true,
+      "note": null
+    },
+    {
+      "key": "earnings_growth_yoy",
+      "name": "이익 성장률(YoY)",
+      "factor_type": "fundamental",
+      "weight": 0.05,
+      "higher_is_better": true,
+      "raw_value": null,
+      "score": null,
+      "enabled": true,
+      "note": null
+    },
+    {
+      "key": "ev_to_ebitda",
+      "name": "EV/EBITDA",
+      "factor_type": "fundamental",
+      "weight": 0.05,
+      "higher_is_better": false,
+      "raw_value": null,
+      "score": null,
+      "enabled": true,
+      "note": null
+    },
+    {
+      "key": "fcf_yield",
+      "name": "FCF 수익률",
+      "factor_type": "fundamental",
+      "weight": 0.05,
+      "higher_is_better": true,
+      "raw_value": null,
+      "score": null,
+      "enabled": true,
+      "note": null
+    },
+    {
+      "key": "gdelt_tone",
+      "name": "뉴스 톤(GDELT)",
+      "factor_type": "sentiment",
+      "weight": 0.1,
+      "higher_is_better": true,
+      "raw_value": null,
+      "score": null,
+      "enabled": true,
+      "note": null
+    },
+    {
+      "key": "macd_hist",
+      "name": "MACD 히스토그램",
+      "factor_type": "technical",
+      "weight": 0.05,
+      "higher_is_better": true,
+      "raw_value": null,
+      "score": null,
+      "enabled": true,
+      "note": null
+    },
+    {
+      "key": "momentum_120d",
+      "name": "모멘텀(120일 수익률)",
+      "factor_type": "technical",
+      "weight": 0.35,
+      "higher_is_better": true,
+      "raw_value": null,
+      "score": null,
+      "enabled": true,
+      "note": null
+    },
+    {
+      "key": "news_neg_risk_14d",
+      "name": "부정 키워드 리스크(14일)",
+      "factor_type": "sentiment",
+      "weight": 0.05,
+      "higher_is_better": false,
+      "raw_value": null,
+      "score": null,
+      "enabled": true,
+      "note": null
+    },
+    {
+      "key": "news_tone_change",
+      "name": "뉴스 톤 변화(3일-14일)",
+      "factor_type": "sentiment",
+      "weight": 0.05,
+      "higher_is_better": true,
+      "raw_value": null,
+      "score": null,
+      "enabled": true,
+      "note": null
+    },
+    {
+      "key": "news_volume_14d",
+      "name": "뉴스량(14일)",
+      "factor_type": "sentiment",
+      "weight": 0.05,
+      "higher_is_better": true,
+      "raw_value": 0.0,
+      "score": 50.0,
+      "enabled": true,
+      "note": null
+    },
+    {
+      "key": "pe_ratio",
+      "name": "PER",
+      "factor_type": "fundamental",
+      "weight": 0.2,
+      "higher_is_better": false,
+      "raw_value": null,
+      "score": null,
+      "enabled": false,
+      "note": null
+    },
+    {
+      "key": "revenue_growth_yoy",
+      "name": "매출 성장률(YoY)",
+      "factor_type": "fundamental",
+      "weight": 0.05,
+      "higher_is_better": true,
+      "raw_value": null,
+      "score": null,
+      "enabled": true,
+      "note": null
+    },
+    {
+      "key": "roe_ttm",
+      "name": "ROE(TTM)",
+      "factor_type": "fundamental",
+      "weight": 0.2,
+      "higher_is_better": true,
+      "raw_value": null,
+      "score": null,
+      "enabled": false,
+      "note": null
+    },
+    {
+      "key": "rs_6m_vs_benchmark",
+      "name": "상대강도(6M, 벤치마크 대비)",
+      "factor_type": "technical",
+      "weight": 0.05,
+      "higher_is_better": true,
+      "raw_value": null,
+      "score": null,
+      "enabled": true,
+      "note": null
+    },
+    {
+      "key": "rsi_14",
+      "name": "RSI(14)",
+      "factor_type": "technical",
+      "weight": 0.05,
+      "higher_is_better": false,
+      "raw_value": null,
+      "score": null,
+      "enabled": true,
+      "note": null
+    },
+    {
+      "key": "volatility_20d",
+      "name": "변동성(20일)",
+      "factor_type": "technical",
+      "weight": 0.15,
+      "higher_is_better": false,
+      "raw_value": null,
+      "score": null,
+      "enabled": true,
+      "note": null
+    }
+  ]
+}
