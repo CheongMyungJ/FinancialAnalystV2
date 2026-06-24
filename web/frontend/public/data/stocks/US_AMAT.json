@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "AMAT",
   "name": "Applied Materials Inc",
-  "day": "2026-06-23",
-  "computed_at": "2026-06-23T04:37:35.686350",
+  "day": "2026-06-24",
+  "computed_at": "2026-06-24T04:45:14.394541",
   "ranking": {
-    "rank": 7,
+    "rank": 9,
     "grade": "B",
-    "total_score": 59.82142831249999
+    "total_score": 57.36607118749998
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-06-09",
-        "close": 169.7899932861328
-      },
       {
         "date": "2025-06-10",
         "close": 173.77000427246094
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-06-22",
         "close": 640.1799926757812
+      },
+      {
+        "date": "2026-06-23",
+        "close": 585.8800048828125
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.05047950995955368,
-      "score": 46.428571,
+      "raw_value": 0.059282902557639176,
+      "score": 35.714286,
       "enabled": true,
       "note": null
     },
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.0,
-      "score": 85.714286,
+      "raw_value": -0.08481987630698873,
+      "score": 67.857143,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 12.19803777789258,
-      "score": 85.714286,
+      "raw_value": 8.524196249651304,
+      "score": 89.285714,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 1.444368108419321,
+      "raw_value": 1.2272572973617635,
       "score": 71.428571,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 1.313843085026362,
+      "raw_value": 1.1283828759423973,
       "score": 71.428571,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 78.20987565557974,
-      "score": 0.0,
+      "raw_value": 63.43526815077482,
+      "score": 7.142857,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.04408281531779833,
-      "score": 39.285714,
+      "raw_value": 0.0500668419359265,
+      "score": 32.142857,
       "enabled": true,
       "note": null
     }
