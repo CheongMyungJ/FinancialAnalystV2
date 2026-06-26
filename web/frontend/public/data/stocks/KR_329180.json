@@ -2,19 +2,15 @@
   "market": "KR",
   "symbol": "329180",
   "name": "HD현대중공업",
-  "day": "2026-06-25",
-  "computed_at": "2026-06-25T04:39:52.179403",
+  "day": "2026-06-26",
+  "computed_at": "2026-06-26T04:47:38.426722",
   "ranking": {
-    "rank": 24,
+    "rank": 20,
     "grade": "D",
-    "total_score": 42.780172437499985
+    "total_score": 44.50431018749998
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-06-02",
-        "close": 428000.0
-      },
       {
         "date": "2025-06-04",
         "close": 428000.0
@@ -1049,7 +1045,11 @@
       },
       {
         "date": "2026-06-25",
-        "close": 586500.0
+        "close": 582000.0
+      },
+      {
+        "date": "2026-06-26",
+        "close": 553000.0
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.07360535711493484,
-      "score": 51.724138,
+      "raw_value": 0.07718755765091004,
+      "score": 65.517241,
       "enabled": true,
       "note": null
     },
@@ -1085,7 +1085,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.21275167785234894,
+      "raw_value": -0.25771812080536916,
       "score": 58.62069,
       "enabled": true,
       "note": null
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -12274.214395009958,
-      "score": 13.793103,
+      "raw_value": -14701.188858041018,
+      "score": 17.241379,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.13005780346820806,
+      "raw_value": 0.080078125,
       "score": 20.689655,
       "enabled": true,
       "note": null
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -1.4196992878967818,
-      "score": 20.689655,
+      "raw_value": -1.2509983556495183,
+      "score": 31.034483,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 39.059515169529895,
-      "score": 86.206897,
+      "raw_value": 34.8475462087102,
+      "score": 75.862069,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.03922016891938845,
-      "score": 86.206897,
+      "raw_value": 0.038937781221683246,
+      "score": 89.655172,
       "enabled": true,
       "note": null
     }
