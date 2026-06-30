@@ -2,19 +2,15 @@
   "market": "KR",
   "symbol": "066570",
   "name": "LG전자",
-  "day": "2026-06-29",
-  "computed_at": "2026-06-29T05:07:57.524800",
+  "day": "2026-06-30",
+  "computed_at": "2026-06-30T04:40:46.314289",
   "ranking": {
-    "rank": 22,
+    "rank": 19,
     "grade": "D",
-    "total_score": 44.50431031249998
+    "total_score": 48.16810337499999
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-06-05",
-        "close": 72400.0
-      },
       {
         "date": "2025-06-09",
         "close": 72900.0
@@ -1049,7 +1045,11 @@
       },
       {
         "date": "2026-06-29",
-        "close": 192400.0
+        "close": 196700.0
+      },
+      {
+        "date": "2026-06-30",
+        "close": 203500.0
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.13686692866208805,
+      "raw_value": 0.12469879609116834,
       "score": 0.0,
       "enabled": true,
       "note": null
@@ -1085,7 +1085,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.5098089171974522,
+      "raw_value": -0.48152866242038217,
       "score": 0.0,
       "enabled": true,
       "note": null
@@ -1140,7 +1140,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -9333.787979188994,
+      "raw_value": -7719.739200886606,
       "score": 24.137931,
       "enabled": true,
       "note": null
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 1.0958605664488017,
+      "raw_value": 1.2143634385201305,
       "score": 72.413793,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.2999589463045913,
+      "raw_value": -0.25111382423000306,
       "score": 72.413793,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 42.13435772110826,
-      "score": 58.62069,
+      "raw_value": 45.148340042929476,
+      "score": 55.172414,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.09732510658486382,
-      "score": 0.0,
+      "raw_value": 0.06517813076915127,
+      "score": 20.689655,
       "enabled": true,
       "note": null
     }
