@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "MRVL",
   "name": "Marvell Technology Inc",
-  "day": "2026-07-02",
-  "computed_at": "2026-07-02T04:37:38.224437",
+  "day": "2026-07-03",
+  "computed_at": "2026-07-03T04:15:21.448669",
   "ranking": {
-    "rank": 6,
-    "grade": "A",
-    "total_score": 58.48214262499998
+    "rank": 10,
+    "grade": "B",
+    "total_score": 58.258928624999974
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-06-18",
-        "close": 74.94999694824219
-      },
       {
         "date": "2025-06-20",
         "close": 73.51000213623047
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-07-01",
         "close": 272.04998779296875
+      },
+      {
+        "date": "2026-07-02",
+        "close": 245.2899932861328
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.09804827494575975,
-      "score": 7.142857,
+      "raw_value": 0.11191269617678447,
+      "score": 3.571429,
       "enabled": true,
       "note": null
     },
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.1402522071549801,
-      "score": 42.857143,
+      "raw_value": -0.2248206587121453,
+      "score": 25.0,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -5.497768097378142,
-      "score": 17.857143,
+      "raw_value": -7.651649672207533,
+      "score": 14.285714,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 2.214201202206539,
-      "score": 96.428571,
+      "raw_value": 1.9393649161936808,
+      "score": 92.857143,
       "enabled": true,
       "note": null
     },
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 1.9649560651820999,
-      "score": 82.142857,
+      "raw_value": 1.7264430601133993,
+      "score": 89.285714,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 52.49340512345121,
-      "score": 39.285714,
+      "raw_value": 46.50614400486889,
+      "score": 78.571429,
       "enabled": true,
       "note": null
     },
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.07803752286057063,
+      "raw_value": 0.08044901222856832,
       "score": 7.142857,
       "enabled": true,
       "note": null
