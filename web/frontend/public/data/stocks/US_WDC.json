@@ -2,23 +2,15 @@
   "market": "US",
   "symbol": "WDC",
   "name": "Western Digital Corp",
-  "day": "2026-07-02",
-  "computed_at": "2026-07-02T04:37:38.224437",
+  "day": "2026-07-07",
+  "computed_at": "2026-07-07T04:30:33.813597",
   "ranking": {
-    "rank": 12,
+    "rank": 10,
     "grade": "B",
-    "total_score": 56.026785562499974
+    "total_score": 56.249999937499986
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-06-18",
-        "close": 59.189998626708984
-      },
-      {
-        "date": "2025-06-20",
-        "close": 59.290000915527344
-      },
       {
         "date": "2025-06-23",
         "close": 60.380001068115234
@@ -1050,6 +1042,14 @@
       {
         "date": "2026-07-01",
         "close": 598.3699951171875
+      },
+      {
+        "date": "2026-07-02",
+        "close": 539.0
+      },
+      {
+        "date": "2026-07-06",
+        "close": 577.4600219726562
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.09139125131436765,
-      "score": 14.285714,
+      "raw_value": 0.09886279879848073,
+      "score": 10.714286,
       "enabled": true,
       "note": null
     },
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.1981426493460945,
-      "score": 21.428571,
+      "raw_value": -0.2261634655714042,
+      "score": 25.0,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -9.99281459435337,
-      "score": 14.285714,
+      "raw_value": -16.92358830358308,
+      "score": 7.142857,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 1.9936460901529665,
+      "raw_value": 1.8806744618985856,
       "score": 89.285714,
       "enabled": true,
       "note": null
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 2.22796561492331,
+      "raw_value": 1.8975842779971994,
       "score": 89.285714,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 50.46817862618513,
-      "score": 50.0,
+      "raw_value": 48.72260473835806,
+      "score": 60.714286,
       "enabled": true,
       "note": null
     },
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.07533451664607632,
+      "raw_value": 0.0792102380756783,
       "score": 10.714286,
       "enabled": true,
       "note": null
