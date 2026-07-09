@@ -2,19 +2,15 @@
   "market": "KR",
   "symbol": "010120",
   "name": "LS ELECTRIC",
-  "day": "2026-07-08",
-  "computed_at": "2026-07-08T03:52:02.127154",
+  "day": "2026-07-09",
+  "computed_at": "2026-07-09T04:26:43.562684",
   "ranking": {
     "rank": 15,
     "grade": "C",
-    "total_score": 50.969827625
+    "total_score": 50.32327593749999
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-06-17",
-        "close": 56200.0
-      },
       {
         "date": "2025-06-18",
         "close": 56000.0
@@ -1049,7 +1045,11 @@
       },
       {
         "date": "2026-07-08",
-        "close": 188800.0
+        "close": 183500.0
+      },
+      {
+        "date": "2026-07-09",
+        "close": 186700.0
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.12548305083004446,
+      "raw_value": 0.1252210092496931,
       "score": 10.344828,
       "enabled": true,
       "note": null
@@ -1085,7 +1085,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.4072213500784929,
+      "raw_value": -0.4138147566718995,
       "score": 20.689655,
       "enabled": true,
       "note": null
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -3868.700181027223,
-      "score": 44.827586,
+      "raw_value": -5084.539372421705,
+      "score": 48.275862,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.9831932773109244,
+      "raw_value": 0.8820564516129032,
       "score": 75.862069,
       "enabled": true,
       "note": null
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.019057274914366262,
-      "score": 72.413793,
+      "raw_value": 0.05834306511312071,
+      "score": 75.862069,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 38.27375792694488,
-      "score": 65.517241,
+      "raw_value": 38.327610219051635,
+      "score": 48.275862,
       "enabled": true,
       "note": null
     },
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.0707726654230696,
+      "raw_value": 0.07254415704117136,
       "score": 6.896552,
       "enabled": true,
       "note": null
