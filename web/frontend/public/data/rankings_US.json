@@ -1,8 +1,8 @@
 {
   "market": "US",
-  "day": "2026-07-16",
+  "day": "2026-07-17",
   "prev_day": null,
-  "computed_at": "2026-07-16T03:45:44.654709",
+  "computed_at": "2026-07-17T03:45:43.528590",
   "factors": [
     "gdelt_tone",
     "pe_ratio",
@@ -20,7 +20,7 @@
       "rank": 1,
       "delta_rank": null,
       "grade": "A",
-      "total_score": 65.01322731249996,
+      "total_score": 65.67460312499999,
       "symbol": "PANW",
       "name": "Palo Alto Networks Inc",
       "factor_scores": {
@@ -28,7 +28,7 @@
         "roe_ttm": null,
         "pe_ratio": null,
         "rs_6m_vs_benchmark": 77.777778,
-        "atr_14p": 46.428571,
+        "atr_14p": 50.0,
         "ev_to_ebitda": null,
         "fcf_yield": null,
         "debt_to_ebitda": null,
@@ -40,27 +40,7 @@
       "rank": 2,
       "delta_rank": null,
       "grade": "A",
-      "total_score": 63.50859799999997,
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices Inc",
-      "factor_scores": {
-        "gdelt_tone": null,
-        "roe_ttm": null,
-        "pe_ratio": null,
-        "rs_6m_vs_benchmark": 88.888889,
-        "atr_14p": 28.571429,
-        "ev_to_ebitda": null,
-        "fcf_yield": null,
-        "debt_to_ebitda": null,
-        "revenue_growth_yoy": null,
-        "earnings_growth_yoy": null
-      }
-    },
-    {
-      "rank": 3,
-      "delta_rank": null,
-      "grade": "A",
-      "total_score": 63.136574124999974,
+      "total_score": 64.52546268749997,
       "symbol": "CRWD",
       "name": "CrowdStrike Holdings Inc",
       "factor_scores": {
@@ -77,10 +57,30 @@
       }
     },
     {
+      "rank": 3,
+      "delta_rank": null,
+      "grade": "A",
+      "total_score": 63.69047637499998,
+      "symbol": "AAPL",
+      "name": "Apple Inc",
+      "factor_scores": {
+        "gdelt_tone": null,
+        "roe_ttm": null,
+        "pe_ratio": null,
+        "rs_6m_vs_benchmark": 51.851852,
+        "atr_14p": 89.285714,
+        "ev_to_ebitda": null,
+        "fcf_yield": null,
+        "debt_to_ebitda": null,
+        "revenue_growth_yoy": null,
+        "earnings_growth_yoy": null
+      }
+    },
+    {
       "rank": 4,
       "delta_rank": null,
       "grade": "A",
-      "total_score": 63.12830681249997,
+      "total_score": 63.35978831249997,
       "symbol": "ARM",
       "name": "ARM Holdings PLC ADR",
       "factor_scores": {
@@ -100,7 +100,27 @@
       "rank": 5,
       "delta_rank": null,
       "grade": "A",
-      "total_score": 62.954695874999985,
+      "total_score": 63.27711656249998,
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices Inc",
+      "factor_scores": {
+        "gdelt_tone": null,
+        "roe_ttm": null,
+        "pe_ratio": null,
+        "rs_6m_vs_benchmark": 88.888889,
+        "atr_14p": 28.571429,
+        "ev_to_ebitda": null,
+        "fcf_yield": null,
+        "debt_to_ebitda": null,
+        "revenue_growth_yoy": null,
+        "earnings_growth_yoy": null
+      }
+    },
+    {
+      "rank": 6,
+      "delta_rank": null,
+      "grade": "A",
+      "total_score": 63.186177374999986,
       "symbol": "CSCO",
       "name": "Cisco Systems Inc",
       "factor_scores": {
@@ -117,10 +137,10 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "delta_rank": null,
-      "grade": "A",
-      "total_score": 62.39252618749998,
+      "grade": "B",
+      "total_score": 61.92956337499999,
       "symbol": "LIN",
       "name": "Linde PLC",
       "factor_scores": {
@@ -137,30 +157,10 @@
       }
     },
     {
-      "rank": 7,
-      "delta_rank": null,
-      "grade": "B",
-      "total_score": 60.49933868749998,
-      "symbol": "AAPL",
-      "name": "Apple Inc",
-      "factor_scores": {
-        "gdelt_tone": null,
-        "roe_ttm": null,
-        "pe_ratio": null,
-        "rs_6m_vs_benchmark": 51.851852,
-        "atr_14p": 89.285714,
-        "ev_to_ebitda": null,
-        "fcf_yield": null,
-        "debt_to_ebitda": null,
-        "revenue_growth_yoy": null,
-        "earnings_growth_yoy": null
-      }
-    },
-    {
       "rank": 8,
       "delta_rank": null,
       "grade": "B",
-      "total_score": 58.44907406249998,
+      "total_score": 59.37499999999998,
       "symbol": "SNDK",
       "name": "Sandisk Corp",
       "factor_scores": {
@@ -180,27 +180,7 @@
       "rank": 9,
       "delta_rank": null,
       "grade": "B",
-      "total_score": 58.34160043749997,
-      "symbol": "TXN",
-      "name": "Texas Instruments Inc",
-      "factor_scores": {
-        "gdelt_tone": null,
-        "roe_ttm": null,
-        "pe_ratio": null,
-        "rs_6m_vs_benchmark": 70.37037,
-        "atr_14p": 39.285714,
-        "ev_to_ebitda": null,
-        "fcf_yield": null,
-        "debt_to_ebitda": null,
-        "revenue_growth_yoy": null,
-        "earnings_growth_yoy": null
-      }
-    },
-    {
-      "rank": 10,
-      "delta_rank": null,
-      "grade": "B",
-      "total_score": 57.936508249999974,
+      "total_score": 57.70502674999997,
       "symbol": "MU",
       "name": "Micron Technology Inc",
       "factor_scores": {
@@ -217,10 +197,30 @@
       }
     },
     {
+      "rank": 10,
+      "delta_rank": null,
+      "grade": "B",
+      "total_score": 56.74603156249998,
+      "symbol": "TXN",
+      "name": "Texas Instruments Inc",
+      "factor_scores": {
+        "gdelt_tone": null,
+        "roe_ttm": null,
+        "pe_ratio": null,
+        "rs_6m_vs_benchmark": 62.962963,
+        "atr_14p": 39.285714,
+        "ev_to_ebitda": null,
+        "fcf_yield": null,
+        "debt_to_ebitda": null,
+        "revenue_growth_yoy": null,
+        "earnings_growth_yoy": null
+      }
+    },
+    {
       "rank": 11,
       "delta_rank": null,
       "grade": "B",
-      "total_score": 57.80423249999998,
+      "total_score": 55.51421968749998,
       "symbol": "INTC",
       "name": "Intel Corp",
       "factor_scores": {
@@ -240,15 +240,15 @@
       "rank": 12,
       "delta_rank": null,
       "grade": "B",
-      "total_score": 53.50529106249998,
+      "total_score": 52.65376993749998,
       "symbol": "GOOGL",
       "name": "Alphabet Inc Class A",
       "factor_scores": {
         "gdelt_tone": null,
         "roe_ttm": null,
         "pe_ratio": null,
-        "rs_6m_vs_benchmark": 37.037037,
-        "atr_14p": 78.571429,
+        "rs_6m_vs_benchmark": 29.62963,
+        "atr_14p": 67.857143,
         "ev_to_ebitda": null,
         "fcf_yield": null,
         "debt_to_ebitda": null,
@@ -260,15 +260,15 @@
       "rank": 13,
       "delta_rank": null,
       "grade": "C",
-      "total_score": 52.604166562499984,
-      "symbol": "AVGO",
-      "name": "Broadcom Inc",
+      "total_score": 52.323082124999985,
+      "symbol": "AMZN",
+      "name": "Amazon.com Inc",
       "factor_scores": {
         "gdelt_tone": null,
         "roe_ttm": null,
         "pe_ratio": null,
-        "rs_6m_vs_benchmark": 40.740741,
-        "atr_14p": 53.571429,
+        "rs_6m_vs_benchmark": 33.333333,
+        "atr_14p": 78.571429,
         "ev_to_ebitda": null,
         "fcf_yield": null,
         "debt_to_ebitda": null,
@@ -280,27 +280,7 @@
       "rank": 14,
       "delta_rank": null,
       "grade": "C",
-      "total_score": 51.66170618749999,
-      "symbol": "GOOG",
-      "name": "Alphabet Inc Class C",
-      "factor_scores": {
-        "gdelt_tone": null,
-        "roe_ttm": null,
-        "pe_ratio": null,
-        "rs_6m_vs_benchmark": 33.333333,
-        "atr_14p": 85.714286,
-        "ev_to_ebitda": null,
-        "fcf_yield": null,
-        "debt_to_ebitda": null,
-        "revenue_growth_yoy": null,
-        "earnings_growth_yoy": null
-      }
-    },
-    {
-      "rank": 15,
-      "delta_rank": null,
-      "grade": "C",
-      "total_score": 50.88458999999997,
+      "total_score": 52.01719574999998,
       "symbol": "NVDA",
       "name": "NVIDIA Corp",
       "factor_scores": {
@@ -317,10 +297,30 @@
       }
     },
     {
+      "rank": 15,
+      "delta_rank": null,
+      "grade": "C",
+      "total_score": 51.231811937499984,
+      "symbol": "AVGO",
+      "name": "Broadcom Inc",
+      "factor_scores": {
+        "gdelt_tone": null,
+        "roe_ttm": null,
+        "pe_ratio": null,
+        "rs_6m_vs_benchmark": 40.740741,
+        "atr_14p": 46.428571,
+        "ev_to_ebitda": null,
+        "fcf_yield": null,
+        "debt_to_ebitda": null,
+        "revenue_growth_yoy": null,
+        "earnings_growth_yoy": null
+      }
+    },
+    {
       "rank": 16,
       "delta_rank": null,
       "grade": "C",
-      "total_score": 50.446428562499975,
+      "total_score": 50.21494706249998,
       "symbol": "AMAT",
       "name": "Applied Materials Inc",
       "factor_scores": {
@@ -360,15 +360,15 @@
       "rank": 18,
       "delta_rank": null,
       "grade": "C",
-      "total_score": 48.85912693749998,
-      "symbol": "AMZN",
-      "name": "Amazon.com Inc",
+      "total_score": 49.01620356249998,
+      "symbol": "GOOG",
+      "name": "Alphabet Inc Class C",
       "factor_scores": {
         "gdelt_tone": null,
         "roe_ttm": null,
         "pe_ratio": null,
         "rs_6m_vs_benchmark": 25.925926,
-        "atr_14p": 75.0,
+        "atr_14p": 71.428571,
         "ev_to_ebitda": null,
         "fcf_yield": null,
         "debt_to_ebitda": null,
@@ -380,27 +380,7 @@
       "rank": 19,
       "delta_rank": null,
       "grade": "D",
-      "total_score": 47.404100812499976,
-      "symbol": "WMT",
-      "name": "Walmart Inc",
-      "factor_scores": {
-        "gdelt_tone": null,
-        "roe_ttm": null,
-        "pe_ratio": null,
-        "rs_6m_vs_benchmark": 14.814815,
-        "atr_14p": 92.857143,
-        "ev_to_ebitda": null,
-        "fcf_yield": null,
-        "debt_to_ebitda": null,
-        "revenue_growth_yoy": null,
-        "earnings_growth_yoy": null
-      }
-    },
-    {
-      "rank": 20,
-      "delta_rank": null,
-      "grade": "D",
-      "total_score": 47.24702399999998,
+      "total_score": 46.29629637499998,
       "symbol": "ASML",
       "name": "ASML Holding NV ADR",
       "factor_scores": {
@@ -417,10 +397,10 @@
       }
     },
     {
-      "rank": 21,
+      "rank": 20,
       "delta_rank": null,
       "grade": "D",
-      "total_score": 46.66832012499999,
+      "total_score": 45.27943124999999,
       "symbol": "COST",
       "name": "Costco Wholesale Corp",
       "factor_scores": {
@@ -437,12 +417,72 @@
       }
     },
     {
+      "rank": 21,
+      "delta_rank": null,
+      "grade": "D",
+      "total_score": 45.15542337499998,
+      "symbol": "TMUS",
+      "name": "T-Mobile US Inc",
+      "factor_scores": {
+        "gdelt_tone": null,
+        "roe_ttm": null,
+        "pe_ratio": null,
+        "rs_6m_vs_benchmark": 22.222222,
+        "atr_14p": 85.714286,
+        "ev_to_ebitda": null,
+        "fcf_yield": null,
+        "debt_to_ebitda": null,
+        "revenue_growth_yoy": null,
+        "earnings_growth_yoy": null
+      }
+    },
+    {
       "rank": 22,
       "delta_rank": null,
       "grade": "D",
-      "total_score": 44.64285699999999,
+      "total_score": 45.11408718749999,
       "symbol": "LRCX",
       "name": "Lam Research Corp",
+      "factor_scores": {
+        "gdelt_tone": null,
+        "roe_ttm": null,
+        "pe_ratio": null,
+        "rs_6m_vs_benchmark": 70.37037,
+        "atr_14p": 17.857143,
+        "ev_to_ebitda": null,
+        "fcf_yield": null,
+        "debt_to_ebitda": null,
+        "revenue_growth_yoy": null,
+        "earnings_growth_yoy": null
+      }
+    },
+    {
+      "rank": 23,
+      "delta_rank": null,
+      "grade": "D",
+      "total_score": 45.08928599999999,
+      "symbol": "WMT",
+      "name": "Walmart Inc",
+      "factor_scores": {
+        "gdelt_tone": null,
+        "roe_ttm": null,
+        "pe_ratio": null,
+        "rs_6m_vs_benchmark": 14.814815,
+        "atr_14p": 92.857143,
+        "ev_to_ebitda": null,
+        "fcf_yield": null,
+        "debt_to_ebitda": null,
+        "revenue_growth_yoy": null,
+        "earnings_growth_yoy": null
+      }
+    },
+    {
+      "rank": 24,
+      "delta_rank": null,
+      "grade": "D",
+      "total_score": 44.69246031249998,
+      "symbol": "KLAC",
+      "name": "KLA Corp",
       "factor_scores": {
         "gdelt_tone": null,
         "roe_ttm": null,
@@ -457,58 +497,18 @@
       }
     },
     {
-      "rank": 23,
+      "rank": 25,
       "delta_rank": null,
-      "grade": "D",
-      "total_score": 43.77480156249998,
-      "symbol": "KLAC",
-      "name": "KLA Corp",
-      "factor_scores": {
-        "gdelt_tone": null,
-        "roe_ttm": null,
-        "pe_ratio": null,
-        "rs_6m_vs_benchmark": 62.962963,
-        "atr_14p": 17.857143,
-        "ev_to_ebitda": null,
-        "fcf_yield": null,
-        "debt_to_ebitda": null,
-        "revenue_growth_yoy": null,
-        "earnings_growth_yoy": null
-      }
-    },
-    {
-      "rank": 24,
-      "delta_rank": null,
-      "grade": "D",
-      "total_score": 41.74107168749999,
+      "grade": "F",
+      "total_score": 38.06216918749998,
       "symbol": "META",
       "name": "Meta Platforms Inc",
       "factor_scores": {
         "gdelt_tone": null,
         "roe_ttm": null,
         "pe_ratio": null,
-        "rs_6m_vs_benchmark": 29.62963,
+        "rs_6m_vs_benchmark": 37.037037,
         "atr_14p": 57.142857,
-        "ev_to_ebitda": null,
-        "fcf_yield": null,
-        "debt_to_ebitda": null,
-        "revenue_growth_yoy": null,
-        "earnings_growth_yoy": null
-      }
-    },
-    {
-      "rank": 25,
-      "delta_rank": null,
-      "grade": "F",
-      "total_score": 41.04662699999998,
-      "symbol": "TMUS",
-      "name": "T-Mobile US Inc",
-      "factor_scores": {
-        "gdelt_tone": null,
-        "roe_ttm": null,
-        "pe_ratio": null,
-        "rs_6m_vs_benchmark": 22.222222,
-        "atr_14p": 82.142857,
         "ev_to_ebitda": null,
         "fcf_yield": null,
         "debt_to_ebitda": null,
@@ -520,7 +520,7 @@
       "rank": 26,
       "delta_rank": null,
       "grade": "F",
-      "total_score": 33.94510556249999,
+      "total_score": 34.821428374999996,
       "symbol": "MSFT",
       "name": "Microsoft Corp",
       "factor_scores": {
@@ -528,7 +528,7 @@
         "roe_ttm": null,
         "pe_ratio": null,
         "rs_6m_vs_benchmark": 7.407407,
-        "atr_14p": 71.428571,
+        "atr_14p": 82.142857,
         "ev_to_ebitda": null,
         "fcf_yield": null,
         "debt_to_ebitda": null,
@@ -540,7 +540,7 @@
       "rank": 27,
       "delta_rank": null,
       "grade": "F",
-      "total_score": 30.092592812499987,
+      "total_score": 32.622354499999986,
       "symbol": "NFLX",
       "name": "Netflix Inc",
       "factor_scores": {
@@ -548,7 +548,7 @@
         "roe_ttm": null,
         "pe_ratio": null,
         "rs_6m_vs_benchmark": 3.703704,
-        "atr_14p": 67.857143,
+        "atr_14p": 75.0,
         "ev_to_ebitda": null,
         "fcf_yield": null,
         "debt_to_ebitda": null,
@@ -560,7 +560,7 @@
       "rank": 28,
       "delta_rank": null,
       "grade": "F",
-      "total_score": 29.100529062499987,
+      "total_score": 26.107804249999994,
       "symbol": "TSLA",
       "name": "Tesla Inc",
       "factor_scores": {
@@ -568,7 +568,7 @@
         "roe_ttm": null,
         "pe_ratio": null,
         "rs_6m_vs_benchmark": 11.111111,
-        "atr_14p": 50.0,
+        "atr_14p": 53.571429,
         "ev_to_ebitda": null,
         "fcf_yield": null,
         "debt_to_ebitda": null,
@@ -580,7 +580,7 @@
       "rank": 29,
       "delta_rank": null,
       "grade": "F",
-      "total_score": 22.1428572,
+      "total_score": 24.285714000000002,
       "symbol": "SPCX",
       "name": "Space Exploration Technologies Corp",
       "factor_scores": {
@@ -600,7 +600,7 @@
       "rank": 30,
       "delta_rank": null,
       "grade": "F",
-      "total_score": 21.91633593749999,
+      "total_score": 22.35449737499999,
       "symbol": "PLTR",
       "name": "Palantir Technologies Inc",
       "factor_scores": {
