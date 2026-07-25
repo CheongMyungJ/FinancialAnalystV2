@@ -2,23 +2,15 @@
   "market": "US",
   "symbol": "TMUS",
   "name": "T-Mobile US Inc",
-  "day": "2026-07-23",
-  "computed_at": "2026-07-23T03:52:14.875877",
+  "day": "2026-07-25",
+  "computed_at": "2026-07-25T03:46:13.303702",
   "ranking": {
-    "rank": 22,
-    "grade": "D",
-    "total_score": 46.65178562499999
+    "rank": 26,
+    "grade": "F",
+    "total_score": 31.655092749999987
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-07-10",
-        "close": 228.14999389648438
-      },
-      {
-        "date": "2025-07-11",
-        "close": 227.75999450683594
-      },
       {
         "date": "2025-07-14",
         "close": 228.14999389648438
@@ -1050,6 +1042,14 @@
       {
         "date": "2026-07-22",
         "close": 190.94000244140625
+      },
+      {
+        "date": "2026-07-23",
+        "close": 170.4199981689453
+      },
+      {
+        "date": "2026-07-24",
+        "close": 180.08999633789062
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.030012429034437325,
-      "score": 82.142857,
+      "raw_value": 0.039800014045196515,
+      "score": 57.142857,
       "enabled": true,
       "note": null
     },
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.2628084041455173,
-      "score": 29.62963,
+      "raw_value": -0.30469870063766313,
+      "score": 22.222222,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 1.3357868798394046,
-      "score": 81.481481,
+      "raw_value": -0.5893465833106485,
+      "score": 62.962963,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.02518122116191268,
-      "score": 37.037037,
+      "raw_value": -0.08681106329871002,
+      "score": 18.518519,
       "enabled": true,
       "note": null
     },
@@ -1228,7 +1228,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.10455017483254525,
+      "raw_value": -0.13070670355367298,
       "score": 25.925926,
       "enabled": true,
       "note": null
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 56.277665538148575,
-      "score": 3.703704,
+      "raw_value": 46.01526891595428,
+      "score": 40.740741,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.022985780293074572,
-      "score": 71.428571,
+      "raw_value": 0.03586872602584386,
+      "score": 39.285714,
       "enabled": true,
       "note": null
     }

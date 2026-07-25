@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "LIN",
   "name": "Linde PLC",
-  "day": "2026-07-24",
-  "computed_at": "2026-07-24T03:52:10.044105",
+  "day": "2026-07-25",
+  "computed_at": "2026-07-25T03:46:13.303702",
   "ranking": {
     "rank": 4,
     "grade": "A",
-    "total_score": 62.392526187499975
+    "total_score": 62.85548931249997
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-07-11",
-        "close": 468.80999755859375
-      },
       {
         "date": "2025-07-14",
         "close": 468.7799987792969
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-07-23",
         "close": 506.32000732421875
+      },
+      {
+        "date": "2026-07-24",
+        "close": 512.280029296875
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.020962459326803778,
+      "raw_value": 0.020356884551005407,
       "score": 96.428571,
       "enabled": true,
       "note": null
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.07375970701696599,
-      "score": 88.888889,
+      "raw_value": -0.06285669623666423,
+      "score": 92.592593,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -3.0523691000314916,
-      "score": 33.333333,
+      "raw_value": -2.5070912448175475,
+      "score": 48.148148,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.11279122488839288,
-      "score": 44.444444,
+      "raw_value": 0.12103645300221522,
+      "score": 48.148148,
       "enabled": true,
       "note": null
     },
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.021465568831224857,
-      "score": 44.444444,
+      "raw_value": 0.035665747784251245,
+      "score": 48.148148,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 42.180787081613865,
-      "score": 74.074074,
+      "raw_value": 46.75295561242615,
+      "score": 33.333333,
       "enabled": true,
       "note": null
     },
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.013971091562462307,
+      "raw_value": 0.013925201082302179,
       "score": 100.0,
       "enabled": true,
       "note": null
