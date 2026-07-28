@@ -2,12 +2,12 @@
   "market": "US",
   "symbol": "SPCX",
   "name": "Space Exploration Technologies Corp",
-  "day": "2026-07-25",
-  "computed_at": "2026-07-25T03:46:13.303702",
+  "day": "2026-07-28",
+  "computed_at": "2026-07-28T03:44:33.398034",
   "ranking": {
-    "rank": 27,
+    "rank": 29,
     "grade": "F",
-    "total_score": 29.999999999999996
+    "total_score": 25.0
   },
   "prices": {
     "bars": [
@@ -126,6 +126,10 @@
       {
         "date": "2026-07-24",
         "close": 115.06999969482422
+      },
+      {
+        "date": "2026-07-27",
+        "close": 113.5
       }
     ]
   },
@@ -139,8 +143,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.10619436266382366,
-      "score": 3.571429,
+      "raw_value": 0.10400705139323599,
+      "score": 0.0,
       "enabled": true,
       "note": null
     },
@@ -315,8 +319,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": null,
-      "score": null,
+      "raw_value": 60.00833015763753,
+      "score": 4.0,
       "enabled": true,
       "note": null
     },
@@ -326,8 +330,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.040888624158098,
-      "score": 32.142857,
+      "raw_value": 0.04073916285366868,
+      "score": 32.0,
       "enabled": true,
       "note": null
     }
