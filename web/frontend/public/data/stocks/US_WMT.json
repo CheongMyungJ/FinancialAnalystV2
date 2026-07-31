@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "WMT",
   "name": "Walmart Inc",
-  "day": "2026-07-30",
-  "computed_at": "2026-07-30T03:40:03.219832",
+  "day": "2026-07-31",
+  "computed_at": "2026-07-31T03:58:55.241437",
   "ranking": {
-    "rank": 23,
+    "rank": 24,
     "grade": "D",
-    "total_score": 43.72519862499999
+    "total_score": 44.246031687499986
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-07-17",
-        "close": 95.08999633789062
-      },
       {
         "date": "2025-07-18",
         "close": 95.05000305175781
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-07-29",
         "close": 114.22000122070312
+      },
+      {
+        "date": "2026-07-30",
+        "close": 111.0999984741211
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.023846557412252563,
+      "raw_value": 0.025268669598666717,
       "score": 85.714286,
       "enabled": true,
       "note": null
@@ -1085,8 +1085,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.1488822368248256,
-      "score": 77.777778,
+      "raw_value": -0.17213114008512398,
+      "score": 51.851852,
       "enabled": true,
       "note": null
     },
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 0.4432729607444932,
-      "score": 77.777778,
+      "raw_value": 0.36773629532229735,
+      "score": 74.074074,
       "enabled": true,
       "note": null
     },
@@ -1151,8 +1151,8 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": -0.10765624046325684,
-      "score": 14.814815,
+      "raw_value": -0.12478339107167324,
+      "score": 11.111111,
       "enabled": true,
       "note": null
     },
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.06518341161967323,
-      "score": 29.62963,
+      "raw_value": -0.13972588413408704,
+      "score": 18.518519,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 51.5021108394911,
-      "score": 17.857143,
+      "raw_value": 44.12127736581447,
+      "score": 60.714286,
       "enabled": true,
       "note": null
     },
@@ -1250,8 +1250,8 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.016599255894124212,
-      "score": 85.714286,
+      "raw_value": 0.015259702892725262,
+      "score": 96.428571,
       "enabled": true,
       "note": null
     }
