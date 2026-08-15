@@ -2,19 +2,15 @@
   "market": "US",
   "symbol": "NVDA",
   "name": "NVIDIA Corp",
-  "day": "2026-08-14",
-  "computed_at": "2026-08-14T03:05:02.057169",
+  "day": "2026-08-15",
+  "computed_at": "2026-08-15T01:55:19.564215",
   "ranking": {
-    "rank": 18,
+    "rank": 17,
     "grade": "C",
-    "total_score": 48.97542724999998
+    "total_score": 49.96652412499998
   },
   "prices": {
     "bars": [
-      {
-        "date": "2025-08-01",
-        "close": 173.72000122070312
-      },
       {
         "date": "2025-08-04",
         "close": 180.0
@@ -1050,6 +1046,10 @@
       {
         "date": "2026-08-13",
         "close": 225.3000030517578
+      },
+      {
+        "date": "2026-08-14",
+        "close": 225.16000366210938
       }
     ]
   },
@@ -1063,8 +1063,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 0.03207143389666128,
-      "score": 77.777778,
+      "raw_value": 0.030744711874252397,
+      "score": 81.481481,
       "enabled": true,
       "note": null
     },
@@ -1085,7 +1085,7 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.044286087206819036,
+      "raw_value": -0.044879959211511444,
       "score": 92.0,
       "enabled": true,
       "note": null
@@ -1140,8 +1140,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": 2.1821694682957395,
-      "score": 48.0,
+      "raw_value": 2.051475712933293,
+      "score": 60.0,
       "enabled": true,
       "note": null
     },
@@ -1151,7 +1151,7 @@
       "factor_type": "technical",
       "weight": 0.35,
       "higher_is_better": true,
-      "raw_value": 0.18691388872901094,
+      "raw_value": 0.17546332589339597,
       "score": 32.0,
       "enabled": true,
       "note": null
@@ -1228,8 +1228,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": true,
-      "raw_value": -0.013617048254980668,
-      "score": 32.0,
+      "raw_value": 0.017097880375317676,
+      "score": 36.0,
       "enabled": true,
       "note": null
     },
@@ -1239,8 +1239,8 @@
       "factor_type": "technical",
       "weight": 0.05,
       "higher_is_better": false,
-      "raw_value": 63.19486247119943,
-      "score": 15.384615,
+      "raw_value": 63.036846365899635,
+      "score": 11.538462,
       "enabled": true,
       "note": null
     },
@@ -1250,7 +1250,7 @@
       "factor_type": "technical",
       "weight": 0.15,
       "higher_is_better": false,
-      "raw_value": 0.024760203801430958,
+      "raw_value": 0.024000779599083553,
       "score": 81.481481,
       "enabled": true,
       "note": null
